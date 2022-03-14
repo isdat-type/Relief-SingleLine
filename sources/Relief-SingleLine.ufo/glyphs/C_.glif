@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="C" format="2">
+	<advance width="665"/>
+	<unicode hex="0043"/>
+	<anchor x="352" y="0" name="bottom"/>
+	<anchor x="357" y="680" name="top"/>
+	<outline>
+		<contour>
+			<point x="566" y="537" type="move"/>
+			<point x="529" y="631"/>
+			<point x="460" y="680"/>
+			<point x="358" y="680" type="curve" smooth="yes"/>
+			<point x="187" y="680"/>
+			<point x="95" y="544"/>
+			<point x="95" y="341" type="curve" smooth="yes"/>
+			<point x="95" y="117"/>
+			<point x="208" y="0"/>
+			<point x="358" y="0" type="curve" smooth="yes"/>
+			<point x="475" y="0"/>
+			<point x="552" y="71"/>
+			<point x="580" y="153" type="curve"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=O-10</string>
+		</dict>
+	</lib>
+</glyph>

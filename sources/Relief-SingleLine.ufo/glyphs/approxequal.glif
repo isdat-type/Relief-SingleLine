@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="approxequal" format="2">
+	<advance width="610"/>
+	<unicode hex="2248"/>
+	<outline>
+		<component base="asciitilde" xScale="0.9204" xOffset="8" yOffset="60"/>
+		<component base="asciitilde" xScale="0.9204" xOffset="8" yOffset="-115"/>
+	</outline>
+</glyph>

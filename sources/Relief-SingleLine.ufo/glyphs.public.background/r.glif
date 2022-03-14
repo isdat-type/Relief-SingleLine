@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="r" format="2">
+	<advance width="394"/>
+	<outline>
+		<contour>
+			<point x="140" y="415" type="move"/>
+			<point x="211" y="497"/>
+			<point x="277" y="555"/>
+			<point x="338" y="555" type="curve" smooth="yes"/>
+		</contour>
+		<contour>
+			<point x="140" y="555" type="move"/>
+			<point x="140" y="0" type="line"/>
+		</contour>
+		<component base="_module_n" xOffset="140"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>2</integer>
+					<key>name</key>
+					<string>_module_n</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

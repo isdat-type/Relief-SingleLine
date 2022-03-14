@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.ss04" format="2">
+	<advance width="300"/>
+	<outline>
+		<contour>
+			<point x="150" y="90" type="move"/>
+			<point x="150" y="-20" type="line"/>
+		</contour>
+	</outline>
+</glyph>

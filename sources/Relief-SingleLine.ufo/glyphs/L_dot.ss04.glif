@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Ldot.ss04" format="2">
+	<advance width="508"/>
+	<outline>
+		<component base="L"/>
+		<component base="period.ss04" xOffset="248" yOffset="300"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+		</dict>
+	</lib>
+</glyph>

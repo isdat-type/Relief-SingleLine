@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="three.subs" format="2">
+	<advance width="283"/>
+	<outline>
+		<component base="three" xScale="0.5" yScale="0.5" yOffset="-65"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>three.dnom</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>three.dnom</string>
+		</dict>
+	</lib>
+</glyph>

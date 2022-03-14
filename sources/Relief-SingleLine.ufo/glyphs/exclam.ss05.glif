@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="exclam.ss05" format="2">
+	<advance width="314"/>
+	<outline>
+		<contour>
+			<point x="160" y="180" type="move"/>
+			<point x="160" y="680" type="line"/>
+		</contour>
+		<component base="period.ss05" xOffset="20"/>
+	</outline>
+</glyph>

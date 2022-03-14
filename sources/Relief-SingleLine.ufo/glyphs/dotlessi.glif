@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dotlessi" format="2">
+	<advance width="280"/>
+	<unicode hex="0131"/>
+	<anchor x="140" y="0" name="bottom"/>
+	<anchor x="140" y="0" name="ogonek"/>
+	<anchor x="140" y="555" name="top"/>
+	<outline>
+		<contour>
+			<point x="140" y="0" type="move"/>
+			<point x="140" y="555" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>n</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=|n</string>
+		</dict>
+	</lib>
+</glyph>

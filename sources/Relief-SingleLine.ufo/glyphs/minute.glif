@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minute" format="2">
+	<advance width="141"/>
+	<unicode hex="2032"/>
+	<outline>
+		<contour>
+			<point x="71" y="540" type="move"/>
+			<point x="71" y="745" type="line"/>
+			<point x="70" y="745" type="line"/>
+		</contour>
+	</outline>
+</glyph>

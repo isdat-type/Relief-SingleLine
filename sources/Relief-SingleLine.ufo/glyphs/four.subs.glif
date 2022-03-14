@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="four.subs" format="2">
+	<advance width="285"/>
+	<outline>
+		<component base="four" xScale="0.5" yScale="0.4999" yOffset="-65"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>four.dnom</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>four.dnom</string>
+		</dict>
+	</lib>
+</glyph>

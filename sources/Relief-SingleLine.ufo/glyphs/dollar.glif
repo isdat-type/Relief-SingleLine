@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="dollar" format="2">
+	<advance width="566"/>
+	<unicode hex="0024"/>
+	<outline>
+		<contour>
+			<point x="293" y="-138" type="move"/>
+			<point x="293" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="293" y="680" type="move"/>
+			<point x="293" y="818" type="line"/>
+		</contour>
+		<component base="S"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>O</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>=O-5</string>
+		</dict>
+	</lib>
+</glyph>

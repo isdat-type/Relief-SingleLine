@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="minus.dnom" format="2">
+	<advance width="332"/>
+	<outline>
+		<component base="minus" xScale="0.5" yScale="0.5"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>minus</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

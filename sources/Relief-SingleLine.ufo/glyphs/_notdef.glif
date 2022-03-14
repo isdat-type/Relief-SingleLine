@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name=".notdef" format="2">
+	<advance width="670"/>
+	<outline>
+		<contour>
+			<point x="140" y="680" type="move"/>
+			<point x="530" y="680" type="line"/>
+			<point x="530" y="0" type="line"/>
+			<point x="140" y="0" type="line"/>
+			<point x="140" y="679" type="line"/>
+		</contour>
+		<contour>
+			<point x="530" y="680" type="move"/>
+			<point x="140" y="0" type="line"/>
+		</contour>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>H</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>H</string>
+		</dict>
+	</lib>
+</glyph>

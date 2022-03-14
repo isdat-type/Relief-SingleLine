@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="n" format="2">
+	<advance width="608"/>
+	<unicode hex="006E"/>
+	<anchor x="314" y="0" name="bottom"/>
+	<anchor x="314" y="555" name="top"/>
+	<outline>
+		<contour>
+			<point x="140" y="555" type="move"/>
+			<point x="140" y="0" type="line"/>
+		</contour>
+		<component base="_module_n" xOffset="140"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>1</integer>
+					<key>name</key>
+					<string>_module_n</string>
+				</dict>
+			</array>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-03-17 07:33:32 +0000</string>
+		</dict>
+	</lib>
+</glyph>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="period.sups.ss05" format="2">
+	<advance width="137"/>
+	<outline>
+		<component base="period.ss05" xScale="0.5" yScale="0.5" yOffset="405"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+			<string>period.dnom</string>
+			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+			<string>period.dnom</string>
+		</dict>
+	</lib>
+</glyph>

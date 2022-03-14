@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="equal.dnom" format="2">
+	<advance width="317"/>
+	<outline>
+		<component base="equal" xScale="0.5" yScale="0.5" xOffset="20"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>equal</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

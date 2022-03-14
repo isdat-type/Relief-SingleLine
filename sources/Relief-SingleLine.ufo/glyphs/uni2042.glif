@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni2042" format="2">
+	<advance width="952"/>
+	<unicode hex="2042"/>
+	<outline>
+		<contour>
+			<point x="332" y="10" type="move"/>
+			<point x="236" y="145" type="line"/>
+			<point x="140" y="10" type="line"/>
+		</contour>
+		<contour>
+			<point x="80" y="190" type="move"/>
+			<point x="236" y="145" type="line"/>
+			<point x="392" y="190" type="line"/>
+		</contour>
+		<contour>
+			<point x="236" y="144" type="move"/>
+			<point x="236" y="305" type="line"/>
+		</contour>
+		<contour>
+			<point x="812" y="10" type="move"/>
+			<point x="716" y="145" type="line"/>
+			<point x="620" y="10" type="line"/>
+		</contour>
+		<contour>
+			<point x="560" y="190" type="move"/>
+			<point x="716" y="145" type="line"/>
+			<point x="872" y="190" type="line"/>
+		</contour>
+		<contour>
+			<point x="572" y="385" type="move"/>
+			<point x="476" y="520" type="line"/>
+			<point x="380" y="385" type="line"/>
+		</contour>
+		<contour>
+			<point x="716" y="144" type="move"/>
+			<point x="716" y="305" type="line"/>
+		</contour>
+		<contour>
+			<point x="320" y="565" type="move"/>
+			<point x="476" y="520" type="line"/>
+			<point x="632" y="565" type="line"/>
+		</contour>
+		<contour>
+			<point x="476" y="519" type="move"/>
+			<point x="476" y="680" type="line"/>
+		</contour>
+	</outline>
+</glyph>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="uni021A" format="2">
+	<advance width="520"/>
+	<unicode hex="021A"/>
+	<anchor x="260" y="0" name="_bottom"/>
+	<anchor x="250" y="-252" name="bottom"/>
+	<outline>
+		<contour>
+			<point x="181" y="-222" type="move"/>
+			<point x="259" y="-67" type="line"/>
+		</contour>
+		<component base="T"/>
+	</outline>
+</glyph>
