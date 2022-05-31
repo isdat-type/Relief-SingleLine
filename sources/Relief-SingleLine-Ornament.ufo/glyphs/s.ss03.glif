@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="s.ss03" format="2">
+	<advance width="555"/>
+	<outline>
+		<component base="s" xScale="0" xyScale="-1" yScale="0" yxScale="1" yOffset="555"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
+			<array>
+				<dict>
+					<key>alignment</key>
+					<integer>-1</integer>
+					<key>index</key>
+					<integer>0</integer>
+					<key>name</key>
+					<string>s</string>
+				</dict>
+			</array>
+		</dict>
+	</lib>
+</glyph>

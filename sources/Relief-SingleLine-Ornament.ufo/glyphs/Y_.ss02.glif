@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Y.ss02" format="2">
+	<advance width="680"/>
+	<outline>
+		<component base="Y" xScale="-0.9995" yScale="-0.9995" xOffset="680" yOffset="680"/>
+	</outline>
+</glyph>

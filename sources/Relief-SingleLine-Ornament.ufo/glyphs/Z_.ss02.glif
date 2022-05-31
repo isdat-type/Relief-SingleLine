@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Z.ss02" format="2">
+	<advance width="680"/>
+	<outline>
+		<component base="Z" xScale="-1" yScale="-1" xOffset="680" yOffset="680"/>
+	</outline>
+	<lib>
+		<dict>
+			<key>com.schriftgestaltung.Glyphs.lastChange</key>
+			<string>2021-03-19 08:53:45 +0000</string>
+		</dict>
+	</lib>
+</glyph>

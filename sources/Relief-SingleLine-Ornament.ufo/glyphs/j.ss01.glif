@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="j.ss01" format="2">
+	<advance width="555"/>
+	<outline>
+		<contour>
+			<point x="555" y="555" type="move"/>
+			<point x="0" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="420" y="0" type="move"/>
+			<point x="278" y="142" type="line"/>
+			<point x="135" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="0" y="135" type="move"/>
+			<point x="142" y="278" type="line"/>
+			<point x="0" y="420" type="line"/>
+		</contour>
+		<contour>
+			<point x="0" y="555" type="move"/>
+			<point x="555" y="0" type="line"/>
+		</contour>
+		<contour>
+			<point x="135" y="555" type="move"/>
+			<point x="278" y="413" type="line"/>
+			<point x="420" y="555" type="line"/>
+		</contour>
+		<contour>
+			<point x="555" y="135" type="move"/>
+			<point x="413" y="278" type="line"/>
+			<point x="555" y="420" type="line"/>
+		</contour>
+	</outline>
+</glyph>

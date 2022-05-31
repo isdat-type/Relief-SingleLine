@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="2">
+	<advance width="680"/>
+	<unicode hex="0054"/>
+	<outline>
+		<contour>
+			<point x="0" y="0" type="move"/>
+			<point x="170" y="0"/>
+			<point x="680" y="2"/>
+			<point x="680" y="340" type="curve" smooth="yes"/>
+			<point x="680" y="678"/>
+			<point x="170" y="680"/>
+			<point x="0" y="680" type="curve"/>
+		</contour>
+	</outline>
+</glyph>

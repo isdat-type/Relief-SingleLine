@@ -1,0 +1,172 @@
+### prefix:-1:Languagesystems ###
+### open prefix 'Languagesystems' ###
+languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+### close prefix 'Languagesystems' ###
+
+### feature:0:aalt ###
+feature aalt {
+### open feature 'aalt' ###
+feature locl;
+feature ss01;
+feature ss02;
+feature ss03;
+### close feature 'aalt' ###
+} aalt;
+
+### feature:1:locl ###
+feature locl {
+### open feature 'locl' ###
+lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by i;
+	language CRT;
+	sub i by i;
+	language KAZ;
+	sub i by i;
+	language TAT;
+	sub i by i;
+	language TRK;
+	sub i by i;
+} locl_latn_0;
+### close feature 'locl' ###
+} locl;
+
+### feature:2:ss01 ###
+feature ss01 {
+### open feature 'ss01' ###
+sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub R by R.ss01;
+sub S by S.ss01;
+sub T by T.ss01;
+sub U by U.ss01;
+sub V by V.ss01;
+sub W by W.ss01;
+sub X by X.ss01;
+sub Y by Y.ss01;
+sub Z by Z.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub c by c.ss01;
+sub d by d.ss01;
+sub e by e.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub h by h.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub r by r.ss01;
+sub s by s.ss01;
+sub t by t.ss01;
+sub u by u.ss01;
+sub v by v.ss01;
+sub w by w.ss01;
+sub x by x.ss01;
+sub y by y.ss01;
+sub z by z.ss01;
+### close feature 'ss01' ###
+} ss01;
+
+### feature:3:ss02 ###
+feature ss02 {
+### open feature 'ss02' ###
+sub B by B.ss02;
+sub D by D.ss02;
+sub F by F.ss02;
+sub G by G.ss02;
+sub I by I.ss02;
+sub M by M.ss02;
+sub N by N.ss02;
+sub P by P.ss02;
+sub R by R.ss02;
+sub S by S.ss02;
+sub T by T.ss02;
+sub U by U.ss02;
+sub V by V.ss02;
+sub X by X.ss02;
+sub Y by Y.ss02;
+sub Z by Z.ss02;
+sub b by b.ss02;
+sub d by d.ss02;
+sub f by f.ss02;
+sub g by g.ss02;
+sub i by i.ss02;
+sub m by m.ss02;
+sub n by n.ss02;
+sub p by p.ss02;
+sub r by r.ss02;
+sub s by s.ss02;
+sub t by t.ss02;
+sub u by u.ss02;
+sub v by v.ss02;
+sub x by x.ss02;
+sub y by y.ss02;
+sub z by z.ss02;
+### close feature 'ss02' ###
+} ss02;
+
+### feature:4:ss03 ###
+feature ss03 {
+### open feature 'ss03' ###
+sub B by B.ss03;
+sub D by D.ss03;
+sub F by F.ss03;
+sub G by G.ss03;
+sub I by I.ss03;
+sub M by M.ss03;
+sub N by N.ss03;
+sub P by P.ss03;
+sub R by R.ss03;
+sub S by S.ss03;
+sub T by T.ss03;
+sub U by U.ss03;
+sub V by V.ss03;
+sub X by X.ss03;
+sub Y by Y.ss03;
+sub Z by Z.ss03;
+sub b by b.ss03;
+sub d by d.ss03;
+sub f by f.ss03;
+sub g by g.ss03;
+sub i by i.ss03;
+sub m by m.ss03;
+sub n by n.ss03;
+sub p by p.ss03;
+sub r by r.ss03;
+sub s by s.ss03;
+sub t by t.ss03;
+sub u by u.ss03;
+sub v by v.ss03;
+sub x by x.ss03;
+sub y by y.ss03;
+sub z by z.ss03;
+### close feature 'ss03' ###
+} ss03;
+
+

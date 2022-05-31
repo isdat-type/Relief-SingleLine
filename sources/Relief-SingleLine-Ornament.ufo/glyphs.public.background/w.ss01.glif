@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="w.ss01" format="2">
+	<advance width="555"/>
+	<outline>
+		<contour>
+			<point x="0" y="280" type="move"/>
+			<point x="0" y="281" type="line"/>
+			<point x="561" y="280" type="line"/>
+		</contour>
+	</outline>
+</glyph>

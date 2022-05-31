@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="S" format="2">
+	<advance width="680"/>
+	<unicode hex="0053"/>
+	<outline>
+		<contour>
+			<point x="0" y="0" type="move"/>
+			<point x="680" y="340" type="line"/>
+			<point x="0" y="680" type="line"/>
+		</contour>
+	</outline>
+</glyph>

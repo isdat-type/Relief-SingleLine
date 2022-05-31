@@ -1,0 +1,4586 @@
+{
+.appVersion = "3087";
+DisplayStrings = (
+"./space/space/nbspace/.notdef \012\012A/space B/space C/space D/space E/space F/space G/space H/space I/space J/space K/space L/space M/space N/space O/space P/space Q/space R/space S/space T/space U/space V/space W/space X/space Y/space Z\012a/space b/space c/space d/space e/space f/space g/space h/space i/space j/space k/space l/space m/space n/space o/space p/space q/space r/space s/space t/space u/space v/space w/space x/space y/space z\012\012/A.ss01/space/B.ss01/space/C.ss01/space/D.ss01/space/E.ss01/space/F.ss01/space/G.ss01/space/H.ss01/space/I.ss01/space/J.ss01/space/K.ss01/space/M.ss01/space/N.ss01/space/O.ss01/space/P.ss01/space/R.ss01/space/S.ss01/space/T.ss01/space/U.ss01/space/V.ss01/space/W.ss01/space/X.ss01/space/Y.ss01/space/Z.ss01 \012/a.ss01/space/b.ss01/space/c.ss01/space/d.ss01/space/e.ss01/space/f.ss01/space/g.ss01/space/h.ss01/space/i.ss01/space/j.ss01/space/k.ss01/space/m.ss01/space/n.ss01/space/o.ss01/space/p.ss01/space/r.ss01/space/s.ss01/space/t.ss01/space/u.ss01/space/v.ss01/space/w.ss01/space/x.ss01/space/y.ss01/space/z.ss01 \012\012\012/B.ss02/space/D.ss02/space/F.ss02/space/G.ss02/space/I.ss02/space/M.ss02/space/N.ss02/space/P.ss02/space/R.ss02/space/S.ss02/space/T.ss02/space/U.ss02/space/V.ss02/space/X.ss02/space/Y.ss02/space/Z.ss02/space \012/b.ss02/space/d.ss02/space/f.ss02/space/g.ss02/space/i.ss02/space/m.ss02/space/n.ss02/space/p.ss02/space/r.ss02/space/s.ss02/space/t.ss02/space/u.ss02/space/v.ss02/space/x.ss02/space/y.ss02/space/z.ss02/space \012\012\012/B.ss03/space/space/D.ss03/space/space/F.ss03/space/G.ss03/space/I.ss03/space/M.ss03/space/N.ss03/space/P.ss03/space/R.ss03/space/S.ss03/space/T.ss03/space/U.ss03/space/V.ss03/space/X.ss03/space/Y.ss03/space/Z.ss03 \012/b.ss03/space/d.ss03/space/f.ss03/space/g.ss03/space/i.ss03/space/m.ss03/space/n.ss03/space/p.ss03/space/r.ss03/space/s.ss03/space/t.ss03/space/u.ss03/space/v.ss03/space/x.ss03/space/y.ss03/space/z.ss03 \012\012\012"
+);
+copyright = "Copyright 2021 The Relief SingleLine Project Authors (https://github.com/isdat-type/Relief-SingleLine)";
+customParameters = (
+{
+name = panose;
+value = (
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0,
+0
+);
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = fsType;
+value = (
+);
+},
+{
+name = "Enforce Compatibility Check";
+value = 0;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "https://scripts.sil.org/OFL";
+},
+{
+name = sampleText;
+value = "Writing Is Drawing Is Writing…";
+}
+);
+date = "2022-04-19 10:46:14 +0000";
+designer = "François Chastanet, Noëlie Dayma, Élisa Garzelli";
+designerURL = "https://github.com/isdat-type/Relief-SingleLine/";
+disablesNiceNames = 1;
+familyName = "Relief SingleLine Ornament";
+featurePrefixes = (
+{
+automatic = 1;
+code = "languagesystem DFLT dflt;
+
+languagesystem latn dflt;
+languagesystem latn AZE;
+languagesystem latn CRT;
+languagesystem latn KAZ;
+languagesystem latn TAT;
+languagesystem latn TRK;
+";
+name = Languagesystems;
+}
+);
+features = (
+{
+automatic = 1;
+code = "feature locl;
+feature ss01;
+feature ss02;
+feature ss03;
+";
+name = aalt;
+},
+{
+automatic = 1;
+code = "lookup locl_latn_0 {
+	script latn;
+	language AZE;
+	sub i by i;
+	language CRT;
+	sub i by i;
+	language KAZ;
+	sub i by i;
+	language TAT;
+	sub i by i;
+	language TRK;
+	sub i by i;
+} locl_latn_0;
+";
+name = locl;
+},
+{
+automatic = 1;
+code = "sub A by A.ss01;
+sub B by B.ss01;
+sub C by C.ss01;
+sub D by D.ss01;
+sub E by E.ss01;
+sub F by F.ss01;
+sub G by G.ss01;
+sub H by H.ss01;
+sub I by I.ss01;
+sub J by J.ss01;
+sub K by K.ss01;
+sub M by M.ss01;
+sub N by N.ss01;
+sub O by O.ss01;
+sub P by P.ss01;
+sub R by R.ss01;
+sub S by S.ss01;
+sub T by T.ss01;
+sub U by U.ss01;
+sub V by V.ss01;
+sub W by W.ss01;
+sub X by X.ss01;
+sub Y by Y.ss01;
+sub Z by Z.ss01;
+sub a by a.ss01;
+sub b by b.ss01;
+sub c by c.ss01;
+sub d by d.ss01;
+sub e by e.ss01;
+sub f by f.ss01;
+sub g by g.ss01;
+sub h by h.ss01;
+sub i by i.ss01;
+sub j by j.ss01;
+sub k by k.ss01;
+sub m by m.ss01;
+sub n by n.ss01;
+sub o by o.ss01;
+sub p by p.ss01;
+sub r by r.ss01;
+sub s by s.ss01;
+sub t by t.ss01;
+sub u by u.ss01;
+sub v by v.ss01;
+sub w by w.ss01;
+sub x by x.ss01;
+sub y by y.ss01;
+sub z by z.ss01;
+";
+name = ss01;
+},
+{
+automatic = 1;
+code = "sub B by B.ss02;
+sub D by D.ss02;
+sub F by F.ss02;
+sub G by G.ss02;
+sub I by I.ss02;
+sub M by M.ss02;
+sub N by N.ss02;
+sub P by P.ss02;
+sub R by R.ss02;
+sub S by S.ss02;
+sub T by T.ss02;
+sub U by U.ss02;
+sub V by V.ss02;
+sub X by X.ss02;
+sub Y by Y.ss02;
+sub Z by Z.ss02;
+sub b by b.ss02;
+sub d by d.ss02;
+sub f by f.ss02;
+sub g by g.ss02;
+sub i by i.ss02;
+sub m by m.ss02;
+sub n by n.ss02;
+sub p by p.ss02;
+sub r by r.ss02;
+sub s by s.ss02;
+sub t by t.ss02;
+sub u by u.ss02;
+sub v by v.ss02;
+sub x by x.ss02;
+sub y by y.ss02;
+sub z by z.ss02;
+";
+name = ss02;
+},
+{
+automatic = 1;
+code = "sub B by B.ss03;
+sub D by D.ss03;
+sub F by F.ss03;
+sub G by G.ss03;
+sub I by I.ss03;
+sub M by M.ss03;
+sub N by N.ss03;
+sub P by P.ss03;
+sub R by R.ss03;
+sub S by S.ss03;
+sub T by T.ss03;
+sub U by U.ss03;
+sub V by V.ss03;
+sub X by X.ss03;
+sub Y by Y.ss03;
+sub Z by Z.ss03;
+sub b by b.ss03;
+sub d by d.ss03;
+sub f by f.ss03;
+sub g by g.ss03;
+sub i by i.ss03;
+sub m by m.ss03;
+sub n by n.ss03;
+sub p by p.ss03;
+sub r by r.ss03;
+sub s by s.ss03;
+sub t by t.ss03;
+sub u by u.ss03;
+sub v by v.ss03;
+sub x by x.ss03;
+sub y by y.ss03;
+sub z by z.ss03;
+";
+name = ss03;
+notes = "Name: ";
+}
+);
+fontMaster = (
+{
+ascender = 745;
+capHeight = 680;
+customParameters = (
+{
+name = "Master Icon Glyph Name";
+value = a;
+},
+{
+name = typoAscender;
+value = 1030;
+},
+{
+name = typoDescender;
+value = -290;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = hheaAscender;
+value = 1030;
+},
+{
+name = hheaDescender;
+value = -290;
+},
+{
+name = hheaLineGap;
+value = 0;
+},
+{
+name = winAscent;
+value = 1030;
+},
+{
+name = winDescent;
+value = 290;
+},
+{
+name = underlinePosition;
+value = -200;
+},
+{
+name = underlineThickness;
+value = 40;
+}
+);
+descender = -190;
+id = master01;
+verticalStems = (
+40,
+40
+);
+xHeight = 555;
+}
+);
+glyphs = (
+{
+glyphname = A;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"0 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0041;
+},
+{
+glyphname = B;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 680 LINE",
+"0 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0042;
+},
+{
+glyphname = C;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"0 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"0 340 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 340 LINE",
+"340 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0043;
+},
+{
+glyphname = D;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 680 LINE",
+"0 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"340 340 LINE",
+"0 340 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0044;
+},
+{
+glyphname = E;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"0 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"170 0 LINE",
+"0 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"0 340 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"0 510 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 170 LINE",
+"170 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 340 LINE",
+"340 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 510 LINE",
+"510 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0045;
+},
+{
+glyphname = F;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 680 LINE",
+"0 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"170 0 LINE",
+"170 170 LINE",
+"0 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"340 340 LINE",
+"0 340 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"510 510 LINE",
+"0 510 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0046;
+},
+{
+glyphname = G;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"680 340 LINE",
+"340 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"340 340 LINE",
+"0 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0047;
+},
+{
+glyphname = H;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 680 LINE",
+"0 340 LINE",
+"340 0 LINE",
+"680 340 LINE",
+"341 679 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0048;
+},
+{
+glyphname = I;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"680 340 LINE",
+"340 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 510 LINE",
+"170 340 LINE",
+"0 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"340 340 LINE",
+"0 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"170 0 LINE",
+"510 340 LINE",
+"170 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"680 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 510 LINE",
+"510 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0049;
+},
+{
+glyphname = J;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 680 LINE",
+"0 340 LINE",
+"340 0 LINE",
+"680 340 LINE",
+"341 679 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"170 0 LINE",
+"0 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"680 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 510 LINE",
+"170 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"341 509 LINE",
+"510 340 LINE",
+"340 170 LINE",
+"170 340 LINE",
+"340 510 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 510 LINE",
+"510 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004A;
+},
+{
+glyphname = K;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"510 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"510 680 OFFCURVE",
+"680 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"170 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004B;
+},
+{
+glyphname = L;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"339 680 LINE",
+"170 680 OFFCURVE",
+"0 551 OFFCURVE",
+"0 340 CURVE SMOOTH",
+"0 129 OFFCURVE",
+"170 0 OFFCURVE",
+"340 0 CURVE SMOOTH",
+"510 0 OFFCURVE",
+"680 129 OFFCURVE",
+"680 340 CURVE SMOOTH",
+"680 551 OFFCURVE",
+"510 680 OFFCURVE",
+"341 680 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004C;
+},
+{
+glyphname = M;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"510 0 OFFCURVE",
+"680 129 OFFCURVE",
+"680 340 CURVE SMOOTH",
+"680 551 OFFCURVE",
+"510 680 OFFCURVE",
+"340 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"170 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004D;
+},
+{
+glyphname = N;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 170 OFFCURVE",
+"551 340 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"129 340 OFFCURVE",
+"0 170 OFFCURVE",
+"0 0 CURVE",
+"170 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004E;
+},
+{
+glyphname = O;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"510 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"510 680 OFFCURVE",
+"680 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 510 LINE",
+"84 510 OFFCURVE",
+"173 447 OFFCURVE",
+"173 340 CURVE SMOOTH",
+"173 233 OFFCURVE",
+"84 170 OFFCURVE",
+"0 170 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"170 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 510 LINE",
+"596 510 OFFCURVE",
+"507 447 OFFCURVE",
+"507 340 CURVE SMOOTH",
+"507 233 OFFCURVE",
+"596 170 OFFCURVE",
+"680 170 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 004F;
+},
+{
+glyphname = P;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"510 0 OFFCURVE",
+"680 129 OFFCURVE",
+"680 340 CURVE SMOOTH",
+"680 551 OFFCURVE",
+"510 680 OFFCURVE",
+"340 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 510 LINE",
+"84 510 OFFCURVE",
+"173 447 OFFCURVE",
+"173 340 CURVE SMOOTH",
+"173 233 OFFCURVE",
+"84 170 OFFCURVE",
+"0 170 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"170 0 OFFCURVE",
+"340 129 OFFCURVE",
+"340 340 CURVE SMOOTH",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 510 LINE",
+"424 510 OFFCURVE",
+"513 447 OFFCURVE",
+"513 340 CURVE SMOOTH",
+"513 233 OFFCURVE",
+"424 170 OFFCURVE",
+"340 170 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0050;
+},
+{
+glyphname = Q;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"339 680 LINE",
+"170 680 OFFCURVE",
+"0 551 OFFCURVE",
+"0 340 CURVE SMOOTH",
+"0 129 OFFCURVE",
+"170 0 OFFCURVE",
+"340 0 CURVE SMOOTH",
+"510 0 OFFCURVE",
+"680 129 OFFCURVE",
+"680 340 CURVE SMOOTH",
+"680 551 OFFCURVE",
+"510 680 OFFCURVE",
+"341 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"341 510 LINE",
+"424 510 OFFCURVE",
+"513 447 OFFCURVE",
+"513 340 CURVE SMOOTH",
+"513 233 OFFCURVE",
+"424 170 OFFCURVE",
+"340 170 CURVE SMOOTH",
+"256 170 OFFCURVE",
+"167 233 OFFCURVE",
+"167 340 CURVE SMOOTH",
+"167 447 OFFCURVE",
+"256 510 OFFCURVE",
+"339 510 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0051;
+},
+{
+glyphname = R;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 170 OFFCURVE",
+"551 340 OFFCURVE",
+"340 340 CURVE",
+"340 551 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"173 0 LINE SMOOTH",
+"173 107 OFFCURVE",
+"84 170 OFFCURVE",
+"0 170 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"510 84 OFFCURVE",
+"447 173 OFFCURVE",
+"340 173 CURVE SMOOTH",
+"233 173 OFFCURVE",
+"173 256 OFFCURVE",
+"173 340 CURVE SMOOTH",
+"173 447 OFFCURVE",
+"84 510 OFFCURVE",
+"0 510 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0052;
+},
+{
+glyphname = S;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"680 340 LINE",
+"0 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0053;
+},
+{
+glyphname = T;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"170 0 OFFCURVE",
+"680 2 OFFCURVE",
+"680 340 CURVE SMOOTH",
+"680 678 OFFCURVE",
+"170 680 OFFCURVE",
+"0 680 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0054;
+},
+{
+glyphname = U;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"170 0 LINE",
+"170 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"340 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 0 LINE",
+"510 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0055;
+},
+{
+glyphname = V;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE",
+"680 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"340 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0056;
+},
+{
+glyphname = W;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE",
+"340 680 LINE",
+"338 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0057;
+},
+{
+glyphname = X;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE SMOOTH",
+"680 423 OFFCURVE",
+"330 680 OFFCURVE",
+"0 680 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"171 0 LINE SMOOTH",
+"171 107 OFFCURVE",
+"85 170 OFFCURVE",
+"1 170 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"341 0 LINE",
+"341 211 OFFCURVE",
+"166 340 OFFCURVE",
+"1 340 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"511 0 LINE SMOOTH",
+"511 318 OFFCURVE",
+"248 511 OFFCURVE",
+"0 511 CURVE SMOOTH"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0058;
+},
+{
+glyphname = Y;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 0 LINE SMOOTH",
+"680 423 OFFCURVE",
+"330 680 OFFCURVE",
+"0 680 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 0 LINE SMOOTH",
+"340 215 OFFCURVE",
+"170 340 OFFCURVE",
+"1 340 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 0059;
+},
+{
+glyphname = Z;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"340 0 LINE SMOOTH",
+"340 215 OFFCURVE",
+"170 340 OFFCURVE",
+"0 340 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 005A;
+},
+{
+glyphname = A.ss01;
+layers = (
+{
+components = (
+{
+name = A;
+transform = "{-1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = B.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = B;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = C.ss01;
+layers = (
+{
+components = (
+{
+name = C;
+transform = "{-1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = D.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = D;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = E.ss01;
+layers = (
+{
+components = (
+{
+name = E;
+transform = "{-1, 0, 0, 1, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = F.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = F;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = G.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = G;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = H.ss01;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 680 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 680 LINE",
+"680 0 LINE"
+);
+}
+);
+width = 680;
+}
+);
+},
+{
+glyphname = I.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = I;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = J.ss01;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"680 680 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"514 0 LINE",
+"340 174 LINE",
+"166 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 166 LINE",
+"174 340 LINE",
+"0 514 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 680 LINE",
+"680 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"166 680 LINE",
+"340 506 LINE",
+"514 680 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"680 166 LINE",
+"506 340 LINE",
+"680 514 LINE"
+);
+}
+);
+width = 680;
+}
+);
+},
+{
+glyphname = K.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = K;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = M.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = M;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = N.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = N;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = O.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = O;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = P.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = P;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = R.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = R;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = S.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = S;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = T.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = T;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = U.ss01;
+layers = (
+{
+components = (
+{
+name = U;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:45 +0000";
+};
+width = 680;
+}
+);
+},
+{
+glyphname = V.ss01;
+layers = (
+{
+components = (
+{
+name = V;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:45 +0000";
+};
+width = 680;
+}
+);
+},
+{
+glyphname = W.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = W;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = X.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = X;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Y.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Y;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Z.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Z;
+transform = "{0, 1, -1, 0, 680, 0}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = B.ss02;
+layers = (
+{
+components = (
+{
+name = B;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = D.ss02;
+layers = (
+{
+components = (
+{
+name = D;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = F.ss02;
+layers = (
+{
+components = (
+{
+name = F;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = G.ss02;
+layers = (
+{
+components = (
+{
+name = G;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = I.ss02;
+layers = (
+{
+components = (
+{
+name = I;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = M.ss02;
+layers = (
+{
+components = (
+{
+name = M;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = N.ss02;
+layers = (
+{
+components = (
+{
+name = N;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = P.ss02;
+layers = (
+{
+components = (
+{
+name = P;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = R.ss02;
+layers = (
+{
+components = (
+{
+name = R;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = S.ss02;
+layers = (
+{
+components = (
+{
+name = S;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = T.ss02;
+layers = (
+{
+components = (
+{
+name = T;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = U.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = U;
+transform = "{0, -1, 1, 0, 0, 850}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = V.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = V;
+transform = "{0, -1, 1, 0, 0, 1020}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = X.ss02;
+layers = (
+{
+components = (
+{
+name = X;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Y.ss02;
+layers = (
+{
+components = (
+{
+name = Y;
+transform = "{-0.9995, 0, 0, -0.9995, 680, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Z.ss02;
+layers = (
+{
+components = (
+{
+name = Z;
+transform = "{-1, 0, 0, -1, 680, 680}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:45 +0000";
+};
+width = 680;
+}
+);
+},
+{
+glyphname = B.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = B;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = D.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = D;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = F.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = F;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = G.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = G;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = I.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = I;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = M.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = M;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = N.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = N;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = P.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = P;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = R.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = R;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = S.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = S;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = T.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = T;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = U.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = U;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = V.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = V;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = X.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = X;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Y.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Y;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = Z.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = Z;
+transform = "{0, -1, 1, 0, 0, 680}";
+}
+);
+layerId = master01;
+width = 680;
+}
+);
+},
+{
+glyphname = a;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"0 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0061;
+},
+{
+glyphname = b;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 555 LINE",
+"0 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0062;
+},
+{
+glyphname = c;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"0 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"0 277 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 277 LINE",
+"277 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0063;
+},
+{
+glyphname = d;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 555 LINE",
+"0 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"277 277 LINE",
+"0 277 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0064;
+},
+{
+glyphname = e;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"0 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE",
+"0 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"0 277 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"0 416 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 139 LINE",
+"139 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 277 LINE",
+"277 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 416 LINE",
+"416 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0065;
+},
+{
+glyphname = f;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 555 LINE",
+"0 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE",
+"139 139 LINE",
+"0 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"277 277 LINE",
+"0 277 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"416 416 LINE",
+"0 416 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0066;
+},
+{
+glyphname = g;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"555 277 LINE",
+"277 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"277 277 LINE",
+"0 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0067;
+},
+{
+glyphname = h;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 555 LINE",
+"0 277 LINE",
+"277 0 LINE",
+"555 277 LINE",
+"278 554 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0068;
+},
+{
+glyphname = i;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"555 277 LINE",
+"277 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 416 LINE",
+"139 277 LINE",
+"0 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"277 277 LINE",
+"0 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE",
+"416 277 LINE",
+"139 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"555 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 416 LINE",
+"416 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0069;
+},
+{
+glyphname = j;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 555 LINE",
+"0 277 LINE",
+"277 0 LINE",
+"555 277 LINE",
+"278 554 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE",
+"0 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"555 139 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 416 LINE",
+"139 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"278 415 LINE",
+"416 277 LINE",
+"277 139 LINE",
+"139 277 LINE",
+"277 416 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 416 LINE",
+"416 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006A;
+},
+{
+glyphname = k;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"416 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"416 555 OFFCURVE",
+"555 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"139 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006B;
+},
+{
+glyphname = l;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"276 555 LINE",
+"139 555 OFFCURVE",
+"0 450 OFFCURVE",
+"0 277 CURVE SMOOTH",
+"0 105 OFFCURVE",
+"139 0 OFFCURVE",
+"277 0 CURVE SMOOTH",
+"416 0 OFFCURVE",
+"555 105 OFFCURVE",
+"555 277 CURVE SMOOTH",
+"555 450 OFFCURVE",
+"416 555 OFFCURVE",
+"278 555 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006C;
+},
+{
+glyphname = m;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"416 0 OFFCURVE",
+"555 105 OFFCURVE",
+"555 277 CURVE SMOOTH",
+"555 450 OFFCURVE",
+"416 555 OFFCURVE",
+"277 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"139 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006D;
+},
+{
+glyphname = n;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 139 OFFCURVE",
+"450 277 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"105 277 OFFCURVE",
+"0 139 OFFCURVE",
+"0 0 CURVE",
+"139 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006E;
+},
+{
+glyphname = o;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"416 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"416 555 OFFCURVE",
+"555 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 416 LINE",
+"68 416 OFFCURVE",
+"141 365 OFFCURVE",
+"141 277 CURVE SMOOTH",
+"141 190 OFFCURVE",
+"68 139 OFFCURVE",
+"0 139 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"139 0 OFFCURVE",
+"277 105 OFFCURVE",
+"277 277 CURVE SMOOTH",
+"277 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 416 LINE",
+"487 416 OFFCURVE",
+"414 365 OFFCURVE",
+"414 277 CURVE SMOOTH",
+"414 190 OFFCURVE",
+"487 139 OFFCURVE",
+"555 139 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 006F;
+},
+{
+glyphname = p;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"276 0 LINE",
+"416 0 OFFCURVE",
+"555 105 OFFCURVE",
+"555 276 CURVE SMOOTH",
+"555 450 OFFCURVE",
+"416 555 OFFCURVE",
+"276 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 416 LINE",
+"68 416 OFFCURVE",
+"142 365 OFFCURVE",
+"142 276 CURVE SMOOTH",
+"142 190 OFFCURVE",
+"68 139 OFFCURVE",
+"0 139 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"139 0 OFFCURVE",
+"276 105 OFFCURVE",
+"276 276 CURVE SMOOTH",
+"276 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"276 416 LINE",
+"346 416 OFFCURVE",
+"418 365 OFFCURVE",
+"418 276 CURVE SMOOTH",
+"418 190 OFFCURVE",
+"346 139 OFFCURVE",
+"276 139 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0070;
+},
+{
+glyphname = q;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"276 555 LINE",
+"139 555 OFFCURVE",
+"0 450 OFFCURVE",
+"0 277 CURVE SMOOTH",
+"0 105 OFFCURVE",
+"139 0 OFFCURVE",
+"277 0 CURVE SMOOTH",
+"416 0 OFFCURVE",
+"555 105 OFFCURVE",
+"555 277 CURVE SMOOTH",
+"555 450 OFFCURVE",
+"416 555 OFFCURVE",
+"278 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"278 416 LINE",
+"346 416 OFFCURVE",
+"418 365 OFFCURVE",
+"418 277 CURVE SMOOTH",
+"418 190 OFFCURVE",
+"346 139 OFFCURVE",
+"277 139 CURVE SMOOTH",
+"209 139 OFFCURVE",
+"137 190 OFFCURVE",
+"137 277 CURVE SMOOTH",
+"137 365 OFFCURVE",
+"209 416 OFFCURVE",
+"276 416 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0071;
+},
+{
+glyphname = r;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 139 OFFCURVE",
+"450 277 OFFCURVE",
+"277 277 CURVE",
+"277 450 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"141 0 LINE SMOOTH",
+"141 88 OFFCURVE",
+"68 139 OFFCURVE",
+"0 139 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"416 68 OFFCURVE",
+"365 141 OFFCURVE",
+"277 141 CURVE SMOOTH",
+"190 141 OFFCURVE",
+"141 209 OFFCURVE",
+"141 277 CURVE SMOOTH",
+"141 365 OFFCURVE",
+"68 416 OFFCURVE",
+"0 416 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0072;
+},
+{
+glyphname = s;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"555 277 LINE",
+"0 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0073;
+},
+{
+glyphname = t;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"0 0 LINE",
+"139 0 OFFCURVE",
+"555 2 OFFCURVE",
+"555 277 CURVE SMOOTH",
+"555 553 OFFCURVE",
+"139 555 OFFCURVE",
+"0 555 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0074;
+},
+{
+glyphname = u;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE",
+"139 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"277 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"416 0 LINE",
+"416 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0075;
+},
+{
+glyphname = v;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE",
+"555 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"277 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0076;
+},
+{
+glyphname = w;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"277 0 LINE",
+"277 555 LINE",
+"276 555 LINE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0077;
+},
+{
+glyphname = x;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE SMOOTH",
+"555 345 OFFCURVE",
+"269 555 OFFCURVE",
+"0 555 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"139 0 LINE SMOOTH",
+"139 88 OFFCURVE",
+"69 139 OFFCURVE",
+"1 139 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"278 0 LINE",
+"278 172 OFFCURVE",
+"136 277 OFFCURVE",
+"1 277 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"417 0 LINE SMOOTH",
+"417 259 OFFCURVE",
+"203 417 OFFCURVE",
+"0 417 CURVE SMOOTH"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0078;
+},
+{
+glyphname = y;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 0 LINE SMOOTH",
+"555 344 OFFCURVE",
+"270 555 OFFCURVE",
+"0 555 CURVE SMOOTH"
+);
+},
+{
+closed = 0;
+nodes = (
+"278 0 LINE SMOOTH",
+"278 176 OFFCURVE",
+"138 278 OFFCURVE",
+"0 278 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 0079;
+},
+{
+glyphname = z;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"278 0 LINE SMOOTH",
+"278 176 OFFCURVE",
+"138 278 OFFCURVE",
+"0 278 CURVE"
+);
+}
+);
+width = 555;
+}
+);
+unicode = 007A;
+},
+{
+glyphname = a.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = a;
+transform = "{0, 1, -1, 0, 548, 0}";
+}
+);
+layerId = master01;
+width = 548;
+}
+);
+},
+{
+glyphname = b.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = b;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = c.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = c;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:45 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = d.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = d;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = e.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = e;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:45 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = f.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = f;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = g.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = g;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = h.ss01;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 555 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 555 LINE",
+"555 0 LINE"
+);
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = i.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = i;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = j.ss01;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"555 555 LINE",
+"0 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"420 0 LINE",
+"278 142 LINE",
+"135 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 135 LINE",
+"142 278 LINE",
+"0 420 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 555 LINE",
+"555 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"135 555 LINE",
+"278 413 LINE",
+"420 555 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"555 135 LINE",
+"413 278 LINE",
+"555 420 LINE"
+);
+}
+);
+width = 555;
+}
+);
+},
+{
+glyphname = k.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = k;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = m.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = m;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = n.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = n;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = o.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = o;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = p.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = p;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = r.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = r;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = s.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = s;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = t.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = t;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = u.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = u;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = v.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = v;
+transform = "{1, 0, 0, 1, -277, 0}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = w.ss01;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"0 280 LINE",
+"0 281 LINE",
+"561 280 LINE"
+);
+}
+);
+};
+components = (
+{
+alignment = -1;
+name = w;
+transform = "{0, -1, 1, 0, 0, 558}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = x.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = x;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = y.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = y;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = z.ss01;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = z;
+transform = "{0, 1, -1, 0, 555, 0}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = b.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = b;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = d.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = d;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = f.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = f;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = g.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = g;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = i.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = i;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = m.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = m;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = n.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = n;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = p.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = p;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = r.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = r;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = s.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = s;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = t.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = t;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = u.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = u;
+transform = "{0, -1, 1, 0, 0, 694}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = v.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = v;
+transform = "{0, -1, 1, 0, 0, 832}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = x.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = x;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = y.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = y;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = z.ss02;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = z;
+transform = "{-1, 0, 0, -1, 555, 555}";
+}
+);
+layerId = master01;
+userData = {
+com.schriftgestaltung.Glyphs.lastChange = "2021-03-19 08:53:47 +0000";
+};
+width = 555;
+}
+);
+},
+{
+glyphname = b.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = b;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = d.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = d;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = f.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = f;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = g.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = g;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = i.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = i;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = m.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = m;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = n.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = n;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = p.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = p;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = r.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = r;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = s.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = s;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = t.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = t;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = u.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = u;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = v.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = v;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 561;
+}
+);
+},
+{
+glyphname = x.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = x;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = y.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = y;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = z.ss03;
+layers = (
+{
+components = (
+{
+alignment = -1;
+name = z;
+transform = "{0, -1, 1, 0, 0, 555}";
+}
+);
+layerId = master01;
+width = 555;
+}
+);
+},
+{
+glyphname = period;
+layers = (
+{
+background = {
+paths = (
+{
+closed = 0;
+nodes = (
+"170 680 LINE",
+"680 170 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"510 680 LINE",
+"680 510 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 510 LINE",
+"510 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 680 LINE",
+"680 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"340 680 LINE",
+"680 340 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 340 LINE",
+"340 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"0 170 LINE",
+"170 0 LINE"
+);
+}
+);
+};
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"-40 508 LINE SMOOTH",
+"-40 486 OFFCURVE",
+"-22 469 OFFCURVE",
+"0 469 CURVE SMOOTH",
+"23 469 OFFCURVE",
+"40 487 OFFCURVE",
+"40 509 CURVE SMOOTH",
+"40 532 OFFCURVE",
+"23 549 OFFCURVE",
+"0 549 CURVE SMOOTH",
+"-22 549 OFFCURVE",
+"-40 532 OFFCURVE",
+"-40 509 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"-1 40 LINE SMOOTH",
+"-23 40 OFFCURVE",
+"-40 23 OFFCURVE",
+"-40 0 CURVE SMOOTH",
+"-40 -22 OFFCURVE",
+"-22 -40 OFFCURVE",
+"0 -40 CURVE SMOOTH",
+"23 -40 OFFCURVE",
+"39 -22 OFFCURVE",
+"39 0 CURVE SMOOTH",
+"39 23 OFFCURVE",
+"23 40 OFFCURVE",
+"0 40 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"169 40 LINE SMOOTH",
+"146 40 OFFCURVE",
+"130 23 OFFCURVE",
+"130 0 CURVE SMOOTH",
+"130 -22 OFFCURVE",
+"147 -40 OFFCURVE",
+"170 -40 CURVE SMOOTH",
+"192 -40 OFFCURVE",
+"208 -22 OFFCURVE",
+"208 0 CURVE SMOOTH",
+"208 23 OFFCURVE",
+"192 40 OFFCURVE",
+"170 40 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"-40 170 LINE SMOOTH",
+"-40 147 OFFCURVE",
+"-22 131 OFFCURVE",
+"0 131 CURVE SMOOTH",
+"23 131 OFFCURVE",
+"40 148 OFFCURVE",
+"40 171 CURVE SMOOTH",
+"40 193 OFFCURVE",
+"23 209 OFFCURVE",
+"0 209 CURVE SMOOTH",
+"-22 209 OFFCURVE",
+"-40 193 OFFCURVE",
+"-40 171 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"337 40 LINE SMOOTH",
+"314 40 OFFCURVE",
+"297 23 OFFCURVE",
+"297 0 CURVE SMOOTH",
+"297 -22 OFFCURVE",
+"315 -40 OFFCURVE",
+"338 -40 CURVE SMOOTH",
+"360 -40 OFFCURVE",
+"377 -22 OFFCURVE",
+"377 0 CURVE SMOOTH",
+"377 23 OFFCURVE",
+"360 40 OFFCURVE",
+"338 40 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"-40 338 LINE SMOOTH",
+"-40 315 OFFCURVE",
+"-22 298 OFFCURVE",
+"0 298 CURVE SMOOTH",
+"23 298 OFFCURVE",
+"40 316 OFFCURVE",
+"40 339 CURVE SMOOTH",
+"40 361 OFFCURVE",
+"23 378 OFFCURVE",
+"0 378 CURVE SMOOTH",
+"-22 378 OFFCURVE",
+"-40 361 OFFCURVE",
+"-40 339 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"507 40 LINE SMOOTH",
+"485 40 OFFCURVE",
+"468 23 OFFCURVE",
+"468 0 CURVE SMOOTH",
+"468 -22 OFFCURVE",
+"486 -40 OFFCURVE",
+"508 -40 CURVE SMOOTH",
+"531 -40 OFFCURVE",
+"548 -22 OFFCURVE",
+"548 0 CURVE SMOOTH",
+"548 23 OFFCURVE",
+"531 40 OFFCURVE",
+"508 40 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"679 40 LINE SMOOTH",
+"656 40 OFFCURVE",
+"640 23 OFFCURVE",
+"640 0 CURVE SMOOTH",
+"640 -22 OFFCURVE",
+"657 -40 OFFCURVE",
+"680 -40 CURVE SMOOTH",
+"702 -40 OFFCURVE",
+"718 -22 OFFCURVE",
+"718 0 CURVE SMOOTH",
+"718 23 OFFCURVE",
+"702 40 OFFCURVE",
+"680 40 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"-1 719 LINE SMOOTH",
+"-23 719 OFFCURVE",
+"-40 702 OFFCURVE",
+"-40 680 CURVE SMOOTH",
+"-40 657 OFFCURVE",
+"-22 640 OFFCURVE",
+"0 640 CURVE SMOOTH",
+"23 640 OFFCURVE",
+"39 657 OFFCURVE",
+"39 680 CURVE SMOOTH",
+"39 702 OFFCURVE",
+"23 719 OFFCURVE",
+"0 719 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"169 719 LINE SMOOTH",
+"146 719 OFFCURVE",
+"130 702 OFFCURVE",
+"130 680 CURVE SMOOTH",
+"130 657 OFFCURVE",
+"147 640 OFFCURVE",
+"170 640 CURVE SMOOTH",
+"192 640 OFFCURVE",
+"208 657 OFFCURVE",
+"208 680 CURVE SMOOTH",
+"208 702 OFFCURVE",
+"192 719 OFFCURVE",
+"170 719 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"640 170 LINE SMOOTH",
+"640 147 OFFCURVE",
+"657 131 OFFCURVE",
+"680 131 CURVE SMOOTH",
+"702 131 OFFCURVE",
+"719 148 OFFCURVE",
+"719 171 CURVE SMOOTH",
+"719 193 OFFCURVE",
+"702 209 OFFCURVE",
+"680 209 CURVE SMOOTH",
+"657 209 OFFCURVE",
+"640 193 OFFCURVE",
+"640 171 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"337 719 LINE SMOOTH",
+"314 719 OFFCURVE",
+"297 702 OFFCURVE",
+"297 680 CURVE SMOOTH",
+"297 657 OFFCURVE",
+"315 640 OFFCURVE",
+"338 640 CURVE SMOOTH",
+"360 640 OFFCURVE",
+"377 657 OFFCURVE",
+"377 680 CURVE SMOOTH",
+"377 702 OFFCURVE",
+"360 719 OFFCURVE",
+"338 719 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"640 338 LINE SMOOTH",
+"640 315 OFFCURVE",
+"657 298 OFFCURVE",
+"680 298 CURVE SMOOTH",
+"702 298 OFFCURVE",
+"719 316 OFFCURVE",
+"719 339 CURVE SMOOTH",
+"719 361 OFFCURVE",
+"702 378 OFFCURVE",
+"680 378 CURVE SMOOTH",
+"657 378 OFFCURVE",
+"640 361 OFFCURVE",
+"640 339 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"507 719 LINE SMOOTH",
+"485 719 OFFCURVE",
+"468 702 OFFCURVE",
+"468 680 CURVE SMOOTH",
+"468 657 OFFCURVE",
+"486 640 OFFCURVE",
+"508 640 CURVE SMOOTH",
+"531 640 OFFCURVE",
+"548 657 OFFCURVE",
+"548 680 CURVE SMOOTH",
+"548 702 OFFCURVE",
+"531 719 OFFCURVE",
+"508 719 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"640 508 LINE SMOOTH",
+"640 486 OFFCURVE",
+"657 469 OFFCURVE",
+"680 469 CURVE SMOOTH",
+"702 469 OFFCURVE",
+"719 487 OFFCURVE",
+"719 509 CURVE SMOOTH",
+"719 532 OFFCURVE",
+"702 549 OFFCURVE",
+"680 549 CURVE SMOOTH",
+"657 549 OFFCURVE",
+"640 532 OFFCURVE",
+"640 509 CURVE"
+);
+},
+{
+closed = 0;
+nodes = (
+"679 719 LINE SMOOTH",
+"656 719 OFFCURVE",
+"640 702 OFFCURVE",
+"640 680 CURVE SMOOTH",
+"640 657 OFFCURVE",
+"657 640 OFFCURVE",
+"680 640 CURVE SMOOTH",
+"702 640 OFFCURVE",
+"718 657 OFFCURVE",
+"718 680 CURVE SMOOTH",
+"718 702 OFFCURVE",
+"702 719 OFFCURVE",
+"680 719 CURVE"
+);
+}
+);
+width = 680;
+}
+);
+unicode = 002E;
+},
+{
+glyphname = space;
+layers = (
+{
+layerId = master01;
+width = 680;
+}
+);
+unicode = 0020;
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = master01;
+width = 555;
+}
+);
+unicode = 00A0;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = master01;
+width = 680;
+}
+);
+unicode = 000D;
+},
+{
+glyphname = .notdef;
+layers = (
+{
+layerId = master01;
+paths = (
+{
+closed = 0;
+nodes = (
+"535 680 LINE",
+"145 0 LINE"
+);
+},
+{
+closed = 0;
+nodes = (
+"145 679 LINE",
+"145 0 LINE",
+"535 0 LINE",
+"535 680 LINE",
+"145 680 LINE"
+);
+}
+);
+width = 680;
+}
+);
+},
+{
+glyphname = NULL;
+layers = (
+{
+layerId = master01;
+width = 680;
+}
+);
+unicode = 0000;
+}
+);
+instances = (
+{
+customParameters = (
+{
+name = Filter;
+value = "Noodler; 40.0; 1; 1";
+}
+);
+instanceInterpolations = {
+master01 = 1;
+};
+name = Regular;
+}
+);
+manufacturer = "institut supérieur des arts et du design Toulouse / isdaT";
+manufacturerURL = "https://www.isdat.fr/";
+unitsPerEm = 1000;
+userData = {
+UFOFormat = 3;
+};
+versionMajor = 1;
+versionMinor = 0;
+}
