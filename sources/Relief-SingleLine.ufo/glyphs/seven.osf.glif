@@ -1,7 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="seven.osf" format="2">
   <advance width="495"/>
-  <guideline x="48" y="701" angle="0"/>
   <outline>
     <contour>
       <point x="112" y="-117" type="move"/>

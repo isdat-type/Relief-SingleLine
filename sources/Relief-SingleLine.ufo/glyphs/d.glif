@@ -2,7 +2,6 @@
 <glyph name="d" format="2">
   <advance width="613"/>
   <unicode hex="0064"/>
-  <guideline x="258" y="697" angle="0"/>
   <anchor x="473" y="0" name="bottom"/>
   <anchor x="473" y="278" name="center"/>
   <anchor x="473" y="687" name="top"/>

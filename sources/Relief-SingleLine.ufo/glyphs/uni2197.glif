@@ -2,7 +2,6 @@
 <glyph name="uni2197" format="2">
   <advance width="746"/>
   <unicode hex="2197"/>
-  <guideline x="35" y="548" angle="0"/>
   <outline>
     <component base="arrowright" xScale="0.6786" xyScale="0.7345" yScale="0.6786" yxScale="-0.7345" xOffset="284" yOffset="-249"/>
   </outline>

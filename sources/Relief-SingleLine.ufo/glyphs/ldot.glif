@@ -3,7 +3,7 @@
   <advance width="373"/>
   <unicode hex="0140"/>
   <outline>
-    <component base="l" identifier="8C800F3B"/>
+    <component base="l" identifier="18603AB0"/>
     <component base="period" xOffset="177" yOffset="285"/>
   </outline>
   <lib>
@@ -12,7 +12,7 @@
       <string>=|n</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>8C800F3B</key>
+        <key>18603AB0</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

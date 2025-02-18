@@ -7,7 +7,7 @@
       <point x="140" y="555" type="move"/>
       <point x="140" y="-190" type="line"/>
     </contour>
-    <component base="_module_rond" xOffset="140" identifier="17AA4149"/>
+    <component base="_module_rond" xOffset="140" identifier="27D418B1"/>
   </outline>
   <lib>
     <dict>
@@ -17,7 +17,7 @@
       <string>o</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>17AA4149</key>
+        <key>27D418B1</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

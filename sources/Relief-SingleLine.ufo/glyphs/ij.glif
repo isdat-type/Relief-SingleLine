@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ij" format="2">
+  <advance width="527"/>
+  <unicode hex="0133"/>
+  <outline>
+    <component base="i"/>
+    <component base="j" xOffset="234" identifier="7AFFC18F"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>i</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>j</string>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>7AFFC18F</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

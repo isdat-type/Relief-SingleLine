@@ -2,9 +2,6 @@
 <glyph name="currency" format="2">
   <advance width="660"/>
   <unicode hex="00A4"/>
-  <guideline x="225" y="-64" angle="0"/>
-  <guideline x="48" y="293" angle="0"/>
-  <guideline x="48" y="449" angle="0"/>
   <outline>
     <contour>
       <point x="102" y="112" type="move"/>

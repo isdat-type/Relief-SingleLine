@@ -3,13 +3,13 @@
   <advance width="347"/>
   <unicode hex="00BA"/>
   <outline>
-    <component base="o" xScale="0.6" yScale="0.6" xOffset="-4" yOffset="347" identifier="26116121"/>
+    <component base="o" xScale="0.6" yScale="0.6" xOffset="-4" yOffset="347" identifier="864AE751"/>
   </outline>
   <lib>
     <dict>
       <key>public.objectLibs</key>
       <dict>
-        <key>26116121</key>
+        <key>864AE751</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

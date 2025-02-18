@@ -2,7 +2,7 @@
 <glyph name="equal.subs" format="2">
   <advance width="317"/>
   <outline>
-    <component base="equal" xScale="0.5" yScale="0.5" xOffset="20" yOffset="-65" identifier="9C38BA84"/>
+    <component base="equal" xScale="0.5" yScale="0.5" xOffset="20" yOffset="-65" identifier="EEBEC3AE"/>
   </outline>
   <lib>
     <dict>
@@ -12,7 +12,7 @@
       <string>equal.dnom</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>9C38BA84</key>
+        <key>EEBEC3AE</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

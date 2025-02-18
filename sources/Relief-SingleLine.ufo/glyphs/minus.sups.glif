@@ -2,7 +2,7 @@
 <glyph name="minus.sups" format="2">
   <advance width="332"/>
   <outline>
-    <component base="minus" xScale="0.5" yScale="0.5" yOffset="405" identifier="2554CD8A"/>
+    <component base="minus" xScale="0.5" yScale="0.5" yOffset="405" identifier="DD19E9DD"/>
   </outline>
   <lib>
     <dict>
@@ -12,7 +12,7 @@
       <string>minus.dnom</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>2554CD8A</key>
+        <key>DD19E9DD</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

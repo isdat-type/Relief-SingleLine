@@ -2,14 +2,14 @@
 <glyph name="ldot.ss02.ss05" format="2">
   <advance width="339"/>
   <outline>
-    <component base="l.ss02" identifier="9061CB66"/>
+    <component base="l.ss02" identifier="DC74C13E"/>
     <component base="period.ss05" xOffset="160" yOffset="285"/>
   </outline>
   <lib>
     <dict>
       <key>public.objectLibs</key>
       <dict>
-        <key>9061CB66</key>
+        <key>DC74C13E</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

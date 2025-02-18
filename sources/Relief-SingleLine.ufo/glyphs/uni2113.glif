@@ -2,7 +2,6 @@
 <glyph name="uni2113" format="2">
   <advance width="466"/>
   <unicode hex="2113"/>
-  <guideline x="210" y="-64" angle="0"/>
   <outline>
     <contour>
       <point x="80" y="145" type="move"/>

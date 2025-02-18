@@ -2,10 +2,9 @@
 <glyph name="fl" format="2">
   <advance width="645"/>
   <unicode hex="FB02"/>
-  <guideline x="48" y="697" angle="0"/>
   <outline>
-    <component base="f" identifier="3602D246"/>
-    <component base="l" xOffset="338" identifier="F56B9456"/>
+    <component base="f" identifier="FDE08A97"/>
+    <component base="l" xOffset="338" identifier="354BCDA7"/>
   </outline>
   <lib>
     <dict>
@@ -17,12 +16,12 @@
       <string>l</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>3602D246</key>
+        <key>354BCDA7</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>F56B9456</key>
+        <key>FDE08A97</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

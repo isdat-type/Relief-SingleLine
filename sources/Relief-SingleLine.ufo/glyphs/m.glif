@@ -7,8 +7,8 @@
       <point x="140" y="555" type="move"/>
       <point x="140" y="0" type="line"/>
     </contour>
-    <component base="_module_n" xOffset="140" identifier="09ADA856"/>
-    <component base="_module_n" xOffset="473" identifier="894265E6"/>
+    <component base="_module_n" xOffset="140" identifier="3CA74B05"/>
+    <component base="_module_n" xOffset="473" identifier="663FB257"/>
   </outline>
   <lib>
     <dict>
@@ -20,12 +20,12 @@
       <string>n</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>09ADA856</key>
+        <key>3CA74B05</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
         </dict>
-        <key>894265E6</key>
+        <key>663FB257</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

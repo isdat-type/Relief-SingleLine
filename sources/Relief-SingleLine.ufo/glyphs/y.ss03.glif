@@ -14,7 +14,7 @@
       <point x="138" y="170" type="curve" smooth="yes"/>
       <point x="138" y="555" type="line"/>
     </contour>
-    <component base="_module_g" xOffset="120" identifier="FC438474"/>
+    <component base="_module_g" xOffset="120" identifier="967D7F72"/>
   </outline>
   <lib>
     <dict>
@@ -22,7 +22,7 @@
       <string>=|n</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>FC438474</key>
+        <key>967D7F72</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

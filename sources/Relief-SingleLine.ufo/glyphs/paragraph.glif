@@ -2,7 +2,6 @@
 <glyph name="paragraph" format="2">
   <advance width="582"/>
   <unicode hex="00B6"/>
-  <guideline x="-2" y="262" angle="0"/>
   <outline>
     <contour>
       <point x="442" y="-118" type="move"/>

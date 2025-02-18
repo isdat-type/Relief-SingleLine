@@ -2,7 +2,6 @@
 <glyph name="Euro" format="2">
   <advance width="652"/>
   <unicode hex="20AC"/>
-  <guideline x="8" y="632" angle="0"/>
   <outline>
     <contour>
       <point x="60" y="287" type="move"/>

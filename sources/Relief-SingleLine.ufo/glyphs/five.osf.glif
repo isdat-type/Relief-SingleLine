@@ -1,9 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="five.osf" format="2">
   <advance width="566"/>
-  <guideline x="47" y="-64" angle="0"/>
-  <guideline x="47" y="-165" angle="0"/>
-  <guideline x="47" y="158" angle="0"/>
   <outline>
     <contour>
       <point x="105" y="8" type="move"/>

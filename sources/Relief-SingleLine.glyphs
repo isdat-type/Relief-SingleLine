@@ -1,5 +1,5 @@
 {
-.appVersion = "3343";
+.appVersion = "3337";
 .formatVersion = 3;
 customParameters = (
 {
@@ -39,7 +39,7 @@ name = "Enforce Compatibility Check";
 value = 0;
 }
 );
-date = "2022-01-03 09:24:47 +0000";
+date = "2025-02-18 13:15:28 +0000";
 familyName = "Relief SingleLine";
 featurePrefixes = (
 {
@@ -107,17 +107,19 @@ tag = aalt;
 },
 {
 automatic = 1;
-code = "lookup ccmp_Other_1 {
+code = "lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb commaturnedabovecomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	@CombiningNonTopAccents = [cedillacomb ogonekcomb];
-	sub [i j]' @CombiningTopAccents by [idotless jdotless];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [idotless jdotless];
-} ccmp_Other_1;
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by idotless;
+	sub j' @CombiningTopAccents by jdotless;
+} ccmp_DFLT_1;
 
 lookup ccmp_latn_1 {
+	lookupflag 0;
 	sub fi by f i;
 	sub fl by f l;
 	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
 } ccmp_latn_1;
 
 script latn;
@@ -127,44 +129,41 @@ tag = ccmp;
 },
 {
 automatic = 1;
-code = "lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by i;
-	language CRT;
-	sub i by i;
-	language KAZ;
-	sub i by i;
-	language TAT;
-	sub i by i;
-	language TRK;
-	sub i by i;
+code = "script latn;
+language AZE;
+lookup locl_latn_0 {
+	sub i by idotaccent;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by Scommaaccent;
-	sub scedilla by scommaaccent;
-	sub Tcedilla by Tcommaaccent;
-	sub tcedilla by tcommaaccent;
-	language MOL;
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language CAT;
 lookup locl_latn_2 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by jacute;
 	sub Iacute J' by Jacute;
 } locl_latn_3;
@@ -217,7 +216,14 @@ tag = sinf;
 },
 {
 automatic = 1;
-code = "sub zero by zerosuperior;
+code = "sub period by period.sups;
+sub parenleft by parenleft.sups;
+sub parenright by parenright.sups;
+sub plus by plus.sups;
+sub minus by minus.sups;
+sub multiply by multiply.sups;
+sub equal by equal.sups;
+sub zero by zerosuperior;
 sub one by onesuperior;
 sub two by twosuperior;
 sub three by threesuperior;
@@ -227,13 +233,6 @@ sub six by sixsuperior;
 sub seven by sevensuperior;
 sub eight by eightsuperior;
 sub nine by ninesuperior;
-sub period by period.sups;
-sub parenleft by parenleft.sups;
-sub parenright by parenright.sups;
-sub plus by plus.sups;
-sub minus by minus.sups;
-sub multiply by multiply.sups;
-sub equal by equal.sups;
 ";
 tag = sups;
 },
@@ -287,11 +286,11 @@ code = "lookup FRAC {
 	sub slash by fraction;
 } FRAC;
 lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+	sub [zero one two three four five six seven eight nine parenleft parenright period plus minus multiply equal] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr];
 } UP;
 lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom];
 } DOWN;
 ";
 tag = frac;
@@ -352,13 +351,6 @@ tag = case;
 {
 automatic = 1;
 code = "lookupflag IgnoreMarks;
-sub f l by fl.ss02;
-";
-tag = dlig;
-},
-{
-automatic = 1;
-code = "lookupflag IgnoreMarks;
 sub f i by fi;
 sub f l by fl;
 ";
@@ -368,9 +360,9 @@ tag = liga;
 automatic = 1;
 code = "sub zero by zero.zero;
 sub zero.osf by zero.osf.zero;
-sub zero.subs by zero.subs.zero;
 sub zero.dnom by zero.dnom.zero;
 sub zero.numr by zero.numr.zero;
+sub zero.subs by zero.subs.zero;
 sub zerosuperior by zerosuperior.zero;
 ";
 tag = zero;
@@ -431,6 +423,8 @@ automatic = 1;
 code = "sub Ldot by Ldot.ss04;
 sub ldot by ldot.ss04;
 sub ldot.ss02 by ldot.ss02.ss04;
+sub period.dnom by period.dnom.ss04;
+sub period.numr by period.numr.ss04;
 sub period by period.ss04;
 sub colon by colon.ss04;
 sub semicolon by semicolon.ss04;
@@ -440,9 +434,7 @@ sub exclamdown by exclamdown.ss04;
 sub question by question.ss04;
 sub questiondown by questiondown.ss04;
 sub periodcentered by periodcentered.ss04;
-sub period.dnom by period.dnom.ss04;
 sub periodcentered.loclCAT by periodcentered.loclCAT.ss04;
-sub period.numr by period.numr.ss04;
 sub period.subs by period.subs.ss04;
 sub period.sups by period.sups.ss04;
 sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss04;
@@ -461,6 +453,8 @@ automatic = 1;
 code = "sub Ldot by Ldot.ss05;
 sub ldot by ldot.ss05;
 sub ldot.ss02 by ldot.ss02.ss05;
+sub period.dnom by period.dnom.ss05;
+sub period.numr by period.numr.ss05;
 sub period by period.ss05;
 sub colon by colon.ss05;
 sub semicolon by semicolon.ss05;
@@ -470,9 +464,7 @@ sub exclamdown by exclamdown.ss05;
 sub question by question.ss05;
 sub questiondown by questiondown.ss05;
 sub periodcentered by periodcentered.ss05;
-sub period.dnom by period.dnom.ss05;
 sub periodcentered.loclCAT by periodcentered.loclCAT.ss05;
-sub period.numr by period.numr.ss05;
 sub period.subs by period.subs.ss05;
 sub period.sups by period.sups.ss05;
 sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss05;
@@ -533,24 +525,6 @@ value = -200;
 {
 name = underlineThickness;
 value = 40;
-}
-);
-guides = (
-{
-name = f1.2;
-pos = (0,-2363);
-},
-{
-name = f2;
-pos = (0,-188);
-},
-{
-name = f4;
-pos = (0,745);
-},
-{
-name = f4.1;
-pos = (0,575);
 }
 );
 id = master01;
@@ -670,11 +644,6 @@ kernLeft = A;
 kernRight = A;
 layers = (
 {
-guides = (
-{
-pos = (323,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -1282,11 +1251,6 @@ kernLeft = H;
 kernRight = E;
 layers = (
 {
-guides = (
-{
-pos = (286,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -1406,6 +1370,64 @@ width = 591;
 }
 );
 unicode = 280;
+},
+{
+color = 0;
+glyphname = Etilde;
+kernLeft = H;
+kernRight = E;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = E;
+},
+{
+pos = (167,125);
+ref = tildecomb;
+}
+);
+width = 591;
+}
+);
+unicode = 7868;
+},
+{
+color = 0;
+glyphname = Schwa;
+kernLeft = O;
+kernRight = O;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(561,303,l),
+(90,303,l),
+(90,169,o),
+(135,0,o),
+(313,0,cs),
+(466,0,o),
+(563,127,o),
+(563,343,cs),
+(563,538,o),
+(485,680,o),
+(309,680,cs),
+(194,680,o),
+(130,618,o),
+(100,545,cs)
+);
+}
+);
+width = 658;
+}
+);
+metricLeft = "=O-5";
+metricRight = O;
+unicode = 399;
 },
 {
 glyphname = F;
@@ -1714,6 +1736,28 @@ metricRight = "=H-1";
 unicode = 73;
 },
 {
+color = 0;
+glyphname = IJ;
+kernLeft = H;
+kernRight = H;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = I;
+},
+{
+pos = (280,0);
+ref = J;
+}
+);
+width = 641;
+}
+);
+unicode = 306;
+},
+{
 color = 10;
 glyphname = Iacute;
 kernLeft = I;
@@ -1764,11 +1808,6 @@ kernLeft = I;
 kernRight = I;
 layers = (
 {
-guides = (
-{
-pos = (131,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -2494,11 +2533,6 @@ kernLeft = O;
 kernRight = O;
 layers = (
 {
-guides = (
-{
-pos = (353,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -3241,19 +3275,19 @@ layers = (
 anchors = (
 {
 name = bottom;
-pos = (343,0);
+pos = (347,0);
 },
 {
 name = ogonek;
-pos = (358,0);
+pos = (362,0);
 },
 {
 name = top;
-pos = (342,680);
+pos = (346,680);
 },
 {
 name = topright;
-pos = (660,696);
+pos = (664,696);
 }
 );
 layerId = master01;
@@ -3261,22 +3295,22 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(126,680,l),
-(126,245,ls),
-(126,87,o),
-(214,0,o),
-(343,0,cs),
-(478,0,o),
-(560,87,o),
-(560,245,cs),
-(560,680,l)
+(130,680,l),
+(130,245,ls),
+(130,87,o),
+(218,0,o),
+(347,0,cs),
+(482,0,o),
+(564,87,o),
+(564,245,cs),
+(564,680,l)
 );
 }
 );
-width = 690;
+width = 694;
 }
 );
-metricLeft = "=H-12";
+metricLeft = "=H-10";
 metricRight = "=H-10";
 unicode = 85;
 },
@@ -3292,11 +3326,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (264,125);
+pos = (268,125);
 ref = acutecomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 218;
@@ -3313,11 +3347,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (212,125);
+pos = (216,125);
 ref = brevecomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 364;
@@ -3328,22 +3362,17 @@ kernLeft = U;
 kernRight = U;
 layers = (
 {
-guides = (
-{
-pos = (337,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
 ref = U;
 },
 {
-pos = (221,125);
+pos = (225,125);
 ref = circumflexcomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 219;
@@ -3360,11 +3389,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (261,125);
+pos = (265,125);
 ref = dieresiscomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 220;
@@ -3381,11 +3410,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (264,125);
+pos = (268,125);
 ref = gravecomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 217;
@@ -3402,11 +3431,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (205,125);
+pos = (209,125);
 ref = hungarumlautcomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 368;
@@ -3423,11 +3452,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (221,125);
+pos = (225,125);
 ref = macroncomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 362;
@@ -3444,11 +3473,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (250,0);
+pos = (254,0);
 ref = ogonekcomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 370;
@@ -3465,11 +3494,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (258,125);
+pos = (262,125);
 ref = ringcomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 366;
@@ -3486,11 +3515,11 @@ shapes = (
 ref = U;
 },
 {
-pos = (193,125);
+pos = (197,125);
 ref = tildecomb;
 }
 );
-width = 690;
+width = 694;
 }
 );
 unicode = 360;
@@ -3799,6 +3828,28 @@ width = 575;
 unicode = 7922;
 },
 {
+color = 0;
+glyphname = Ytilde;
+kernLeft = Y;
+kernRight = Y;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Y;
+},
+{
+pos = (142,125);
+ref = tildecomb;
+}
+);
+width = 575;
+}
+);
+unicode = 7928;
+},
+{
 glyphname = Z;
 kernLeft = Z;
 kernRight = Z;
@@ -3899,6 +3950,26 @@ width = 609;
 }
 );
 unicode = 379;
+},
+{
+color = 0;
+glyphname = Saltillo;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(70,745,l),
+(70,515,l)
+);
+}
+);
+width = 140;
+}
+);
+unicode = 42891;
 },
 {
 glyphname = Ldot.ss04;
@@ -4197,14 +4268,6 @@ kernLeft = a;
 kernRight = o;
 layers = (
 {
-guides = (
-{
-pos = (861,-64);
-},
-{
-pos = (118,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -4442,11 +4505,6 @@ name = topright;
 pos = (623,745);
 }
 );
-guides = (
-{
-pos = (258,697);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -4599,20 +4657,6 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
-guides = (
-{
-pos = (272,-64);
-},
-{
-pos = (0,78);
-},
-{
-pos = (0,68);
-},
-{
-pos = (0,50);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -4679,20 +4723,6 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
-guides = (
-{
-pos = (272,-64);
-},
-{
-pos = (0,78);
-},
-{
-pos = (0,68);
-},
-{
-pos = (0,50);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -4762,20 +4792,6 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
-guides = (
-{
-pos = (272,-64);
-},
-{
-pos = (0,78);
-},
-{
-pos = (0,68);
-},
-{
-pos = (0,50);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -4835,6 +4851,51 @@ width = 561;
 }
 );
 unicode = 281;
+},
+{
+color = 0;
+glyphname = etilde;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = e;
+},
+{
+pos = (146,0);
+ref = tildecomb;
+}
+);
+width = 561;
+}
+);
+unicode = 7869;
+},
+{
+color = 0;
+glyphname = schwa;
+kernLeft = o;
+kernRight = o;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+angle = 180;
+pos = (561,555);
+ref = e;
+}
+);
+width = 561;
+}
+);
+metricLeft = "=o-5";
+metricRight = o;
+unicode = 601;
 },
 {
 glyphname = f;
@@ -5100,11 +5161,6 @@ kernLeft = i;
 kernRight = i;
 layers = (
 {
-guides = (
-{
-pos = (20,1971);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -5379,6 +5435,31 @@ width = 280;
 }
 );
 unicode = 297;
+},
+{
+color = 0;
+glyphname = ij;
+kernLeft = i;
+kernRight = j;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = i;
+},
+{
+alignment = -1;
+pos = (234,0);
+ref = j;
+}
+);
+width = 527;
+}
+);
+metricLeft = i;
+metricRight = j;
+unicode = 307;
 },
 {
 glyphname = j;
@@ -6146,20 +6227,6 @@ kernLeft = o;
 kernRight = o;
 layers = (
 {
-guides = (
-{
-pos = (862,-64);
-},
-{
-pos = (48,78);
-},
-{
-pos = (48,68);
-},
-{
-pos = (48,50);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -7277,6 +7344,28 @@ width = 549;
 unicode = 7923;
 },
 {
+color = 0;
+glyphname = ytilde;
+kernLeft = v;
+kernRight = v;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = y;
+},
+{
+pos = (125,0);
+ref = tildecomb;
+}
+);
+width = 549;
+}
+);
+unicode = 7929;
+},
+{
 glyphname = z;
 kernLeft = z;
 kernRight = z;
@@ -7377,6 +7466,26 @@ width = 530;
 }
 );
 unicode = 380;
+},
+{
+color = 0;
+glyphname = saltillo;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+closed = 0;
+nodes = (
+(50,745,l),
+(50,555,l)
+);
+}
+);
+width = 100;
+}
+);
+unicode = 42892;
 },
 {
 glyphname = g.ss01;
@@ -7895,14 +8004,6 @@ kernLeft = f;
 kernRight = i;
 layers = (
 {
-guides = (
-{
-pos = (48,697);
-},
-{
-pos = (48,1971);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -7929,11 +8030,6 @@ kernLeft = f;
 kernRight = l;
 layers = (
 {
-guides = (
-{
-pos = (48,697);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -7963,11 +8059,6 @@ kernLeft = f;
 kernRight = l.ss02;
 layers = (
 {
-guides = (
-{
-pos = (48,697);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -8558,14 +8649,6 @@ kernLeft = zero.osf;
 kernRight = zero.osf;
 layers = (
 {
-guides = (
-{
-pos = (289,-64);
-},
-{
-pos = (19,-165);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -8610,17 +8693,6 @@ kernLeft = four.osf;
 kernRight = four.osf;
 layers = (
 {
-guides = (
-{
-pos = (124,-64);
-},
-{
-pos = (495,-64);
-},
-{
-pos = (545,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -8645,17 +8717,6 @@ kernLeft = five.osf;
 kernRight = five.osf;
 layers = (
 {
-guides = (
-{
-pos = (47,-64);
-},
-{
-pos = (47,-165);
-},
-{
-pos = (47,158);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -8725,11 +8786,6 @@ kernLeft = seven.osf;
 kernRight = seven.osf;
 layers = (
 {
-guides = (
-{
-pos = (48,701);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -9975,6 +10031,17 @@ width = 320;
 }
 );
 unicode = 160;
+},
+{
+color = 0;
+glyphname = thinspace;
+layers = (
+{
+layerId = master01;
+width = 160;
+}
+);
+unicode = 8201;
 },
 {
 glyphname = CR;
@@ -12028,6 +12095,17 @@ width = 549;
 unicode = 402;
 },
 {
+color = 3;
+glyphname = baht;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 3647;
+},
+{
 glyphname = plus.dnom;
 kernLeft = plus.dnom;
 kernRight = plus.dnom;
@@ -12326,11 +12404,6 @@ kernLeft = paragraph;
 kernRight = H;
 layers = (
 {
-guides = (
-{
-pos = (-2,262);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -12718,11 +12791,6 @@ kernLeft = literSign;
 kernRight = literSign;
 layers = (
 {
-guides = (
-{
-pos = (210,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -12876,17 +12944,6 @@ kernLeft = currency;
 kernRight = currency;
 layers = (
 {
-guides = (
-{
-pos = (225,-64);
-},
-{
-pos = (48,293);
-},
-{
-pos = (48,449);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -12980,11 +13037,6 @@ kernLeft = euro;
 kernRight = euro;
 layers = (
 {
-guides = (
-{
-pos = (8,632);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -13024,6 +13076,50 @@ width = 652;
 }
 );
 unicode = 8364;
+},
+{
+color = 3;
+glyphname = hryvnia;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 8372;
+},
+{
+color = 3;
+glyphname = ruble;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 8381;
+},
+{
+color = 3;
+glyphname = rupeeIndian;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 8377;
+},
+{
+color = 3;
+glyphname = sheqel;
+layers = (
+{
+layerId = master01;
+width = 600;
+}
+);
+unicode = 8362;
 },
 {
 glyphname = sterling;
@@ -13067,6 +13163,36 @@ width = 562;
 unicode = 163;
 },
 {
+color = 0;
+glyphname = won;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = W;
+},
+{
+closed = 0;
+nodes = (
+(60,230,l),
+(850,230,l)
+);
+},
+{
+closed = 0;
+nodes = (
+(60,390,l),
+(850,390,l)
+);
+}
+);
+width = 910;
+}
+);
+unicode = 8361;
+},
+{
 glyphname = yen;
 kernLeft = Y;
 kernRight = Y;
@@ -13077,34 +13203,34 @@ shapes = (
 {
 closed = 0;
 nodes = (
-(282,0,l),
-(282,314,l)
+(262,0,l),
+(262,314,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(116,163,l),
-(448,163,l)
+(96,163,l),
+(428,163,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(116,314,l),
-(448,314,l)
+(96,314,l),
+(428,314,l)
 );
 },
 {
 closed = 0;
 nodes = (
-(70,680,l),
-(282,314,l),
-(494,680,l)
+(50,680,l),
+(262,314,l),
+(474,680,l)
 );
 }
 );
-width = 564;
+width = 524;
 }
 );
 unicode = 165;
@@ -13597,6 +13723,24 @@ width = 420;
 unicode = 8747;
 },
 {
+color = 0;
+glyphname = increment;
+kernLeft = A;
+kernRight = A;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = Delta;
+}
+);
+width = 700;
+}
+);
+unicode = 8710;
+},
+{
 glyphname = product;
 kernLeft = product;
 kernRight = product;
@@ -14034,11 +14178,6 @@ metricRight = equal.dnom;
 glyphname = upArrow;
 layers = (
 {
-guides = (
-{
-pos = (2,605);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -14056,11 +14195,6 @@ unicode = 8593;
 glyphname = northEastArrow;
 layers = (
 {
-guides = (
-{
-pos = (35,548);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -14124,14 +14258,6 @@ unicode = 8600;
 glyphname = downArrow;
 layers = (
 {
-guides = (
-{
-pos = (34,605);
-},
-{
-pos = (34,-94);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -14204,11 +14330,6 @@ unicode = 8598;
 glyphname = leftRightArrow;
 layers = (
 {
-guides = (
-{
-pos = (68,605);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -14732,11 +14853,6 @@ name = _top;
 pos = (121,555);
 }
 );
-guides = (
-{
-pos = (159,-64);
-}
-);
 layerId = master01;
 shapes = (
 {
@@ -15206,11 +15322,6 @@ anchors = (
 {
 name = _top;
 pos = (121,555);
-}
-);
-guides = (
-{
-pos = (159,-64);
 }
 );
 layerId = master01;

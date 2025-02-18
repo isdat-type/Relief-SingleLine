@@ -3,7 +3,7 @@
 <plist version="1.0">
   <dict>
     <key>com.schriftgestaltung.appVersion</key>
-    <string>3343</string>
+    <string>3337</string>
     <key>com.schriftgestaltung.disablesAutomaticAlignment</key>
     <false/>
     <key>com.schriftgestaltung.disablesLastChange</key>
@@ -95,6 +95,8 @@
       <string>Egrave</string>
       <string>Emacron</string>
       <string>Eogonek</string>
+      <string>uni1EBC</string>
+      <string>uni018F</string>
       <string>F</string>
       <string>G</string>
       <string>Gbreve</string>
@@ -105,6 +107,7 @@
       <string>Hbar</string>
       <string>Hcircumflex</string>
       <string>I</string>
+      <string>IJ</string>
       <string>Iacute</string>
       <string>Ibreve</string>
       <string>Icircumflex</string>
@@ -185,10 +188,12 @@
       <string>Ycircumflex</string>
       <string>Ydieresis</string>
       <string>Ygrave</string>
+      <string>uni1EF8</string>
       <string>Z</string>
       <string>Zacute</string>
       <string>Zcaron</string>
       <string>Zdotaccent</string>
+      <string>uniA78B</string>
       <string>Ldot.ss04</string>
       <string>Ldot.ss05</string>
       <string>a</string>
@@ -223,6 +228,8 @@
       <string>egrave</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>uni1EBD</string>
+      <string>uni0259</string>
       <string>f</string>
       <string>g</string>
       <string>gbreve</string>
@@ -243,6 +250,7 @@
       <string>imacron</string>
       <string>iogonek</string>
       <string>itilde</string>
+      <string>ij</string>
       <string>j</string>
       <string>uni0237</string>
       <string>uni006A0301</string>
@@ -315,10 +323,12 @@
       <string>ycircumflex</string>
       <string>ydieresis</string>
       <string>ygrave</string>
+      <string>uni1EF9</string>
       <string>z</string>
       <string>zacute</string>
       <string>zcaron</string>
       <string>zdotaccent</string>
+      <string>uniA78C</string>
       <string>g.ss01</string>
       <string>gbreve.ss01</string>
       <string>gcircumflex.ss01</string>
@@ -421,6 +431,7 @@
       <string>uni2070.zero</string>
       <string>space</string>
       <string>uni00A0</string>
+      <string>uni2009</string>
       <string>CR</string>
       <string>.notdef</string>
       <string>parenleft.dnom</string>
@@ -510,6 +521,7 @@
       <string>quotedbl</string>
       <string>quotesingle</string>
       <string>florin</string>
+      <string>uni0E3F</string>
       <string>plus.dnom</string>
       <string>minus.dnom</string>
       <string>multiply.dnom</string>
@@ -539,7 +551,12 @@
       <string>currency</string>
       <string>dollar</string>
       <string>Euro</string>
+      <string>uni20B4</string>
+      <string>uni20BD</string>
+      <string>uni20B9</string>
+      <string>uni20AA</string>
       <string>sterling</string>
+      <string>uni20A9</string>
       <string>yen</string>
       <string>uni2219</string>
       <string>plus</string>
@@ -559,6 +576,7 @@
       <string>asciicircum</string>
       <string>infinity</string>
       <string>integral</string>
+      <string>uni2206</string>
       <string>product</string>
       <string>summation</string>
       <string>radical</string>

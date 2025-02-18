@@ -1,8 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="three.osf" format="2">
   <advance width="551"/>
-  <guideline x="289" y="-64" angle="0"/>
-  <guideline x="19" y="-165" angle="0"/>
   <outline>
     <contour>
       <point x="65" y="7" type="move"/>

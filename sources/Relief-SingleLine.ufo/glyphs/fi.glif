@@ -2,8 +2,6 @@
 <glyph name="fi" format="2">
   <advance width="613"/>
   <unicode hex="FB01"/>
-  <guideline x="48" y="697" angle="0"/>
-  <guideline x="48" y="1971" angle="0"/>
   <outline>
     <component base="f"/>
     <component base="i" xOffset="333"/>

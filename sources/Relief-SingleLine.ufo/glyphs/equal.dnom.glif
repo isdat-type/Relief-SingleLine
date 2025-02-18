@@ -2,13 +2,13 @@
 <glyph name="equal.dnom" format="2">
   <advance width="317"/>
   <outline>
-    <component base="equal" xScale="0.5" yScale="0.5" xOffset="20" identifier="D8B692D7"/>
+    <component base="equal" xScale="0.5" yScale="0.5" xOffset="20" identifier="C02457A9"/>
   </outline>
   <lib>
     <dict>
       <key>public.objectLibs</key>
       <dict>
-        <key>D8B692D7</key>
+        <key>C02457A9</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

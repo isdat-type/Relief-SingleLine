@@ -20,7 +20,7 @@
       <point x="430" y="68"/>
       <point x="473" y="147" type="curve"/>
     </contour>
-    <component base="_module_g" xOffset="127" identifier="05B096EB"/>
+    <component base="_module_g" xOffset="127" identifier="E06816D1"/>
   </outline>
   <lib>
     <dict>
@@ -30,7 +30,7 @@
       <string>n</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>05B096EB</key>
+        <key>E06816D1</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

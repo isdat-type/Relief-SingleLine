@@ -10,7 +10,7 @@
       <point x="140" y="0" type="move"/>
       <point x="140" y="745" type="line"/>
     </contour>
-    <component base="_module_n" xOffset="140" identifier="54E6B8D6"/>
+    <component base="_module_n" xOffset="140" identifier="72512D9D"/>
   </outline>
   <lib>
     <dict>
@@ -22,7 +22,7 @@
       <string>n</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>54E6B8D6</key>
+        <key>72512D9D</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

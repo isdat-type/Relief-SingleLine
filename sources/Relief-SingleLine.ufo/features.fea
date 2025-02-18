@@ -1,14 +1,14 @@
-@MMK_L_A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Delta uni25B3];
+@MMK_L_A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Delta uni2206 uni25B3];
 @MMK_L_B = [B];
-@MMK_L_E = [AE E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek OE];
+@MMK_L_E = [AE E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek uni1EBC OE];
 @MMK_L_F = [F];
 @MMK_L_Germandbls = [uni1E9E];
-@MMK_L_H = [H Hcircumflex I J uni004A0301 Jcircumflex M N Nacute Ncaron uni0145 Ntilde Eng one paragraph uni27F3 uni25A1 Jdotaccent];
+@MMK_L_H = [H Hcircumflex I IJ J uni004A0301 Jcircumflex M N Nacute Ncaron uni0145 Ntilde Eng one paragraph uni27F3 uni25A1 Jdotaccent];
 @MMK_L_Hbar = [Hbar];
 @MMK_L_I = [Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde];
 @MMK_L_K = [K uni0136];
 @MMK_L_L = [L Lacute Lcaron uni013B Ldot Lslash Ldot.ss04 Ldot.ss05];
-@MMK_L_O = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth G Gbreve Gcircumflex uni0122 Gdotaccent O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q S Sacute Scaron Scedilla Scircumflex uni0218 Omega at copyright registered estimated dollar uni27F2 circle];
+@MMK_L_O = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth uni018F G Gbreve Gcircumflex uni0122 Gdotaccent O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde Q S Sacute Scaron Scedilla Scircumflex uni0218 Omega at copyright registered estimated dollar uni27F2 circle];
 @MMK_L_P = [P];
 @MMK_L_R = [R Racute Rcaron uni0156];
 @MMK_L_T = [T Tbar Tcaron uni0162 uni021A];
@@ -17,7 +17,7 @@
 @MMK_L_V = [V Wacute Wcircumflex Wdieresis Wgrave];
 @MMK_L_W = [W];
 @MMK_L_X = [X];
-@MMK_L_Y = [Y Yacute Ycircumflex Ydieresis Ygrave yen];
+@MMK_L_Y = [Y Yacute Ycircumflex Ydieresis Ygrave uni1EF8 yen];
 @MMK_L_Z = [Z Zacute Zcaron Zdotaccent];
 @MMK_L_a = [a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde];
 @MMK_L_ampersand = [ampersand];
@@ -68,6 +68,7 @@
 @MMK_L_i = [i dotlessi iacute ibreve icircumflex idieresis i.loclTRK igrave imacron iogonek itilde j uni0237 uni006A0301 jcircumflex fi];
 @MMK_L_infinity = [infinity];
 @MMK_L_integral = [integral];
+@MMK_L_j = [ij];
 @MMK_L_k = [k uni0137];
 @MMK_L_l = [l lacute lcaron uni013C ldot lslash ldot.ss04 ldot.ss05 fl];
 @MMK_L_l.ss02 = [l.ss02 lacute.ss02 lcaron.ss02 uni013C.ss02 lslash.ss02 fl.ss02];
@@ -85,7 +86,7 @@
 @MMK_L_nine.dnom = [nine.dnom nine.numr nine.subs uni2079];
 @MMK_L_nine.osf = [nine.osf];
 @MMK_L_numbersign = [numbersign];
-@MMK_L_o = [ae b c cacute ccaron ccedilla ccircumflex cdotaccent e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn s sacute scaron scedilla scircumflex uni0219 uni26AA cent];
+@MMK_L_o = [ae b c cacute ccaron ccedilla ccircumflex cdotaccent e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek uni1EBD uni0259 o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn s sacute scaron scedilla scircumflex uni0219 uni26AA cent];
 @MMK_L_one.dnom = [one.dnom one.numr one.subs uni00B9];
 @MMK_L_one.osf = [one.osf];
 @MMK_L_onehalf = [onehalf];
@@ -131,27 +132,27 @@
 @MMK_L_two.dnom = [two.dnom two.numr two.subs uni00B2];
 @MMK_L_two.osf = [two.osf];
 @MMK_L_underscore = [underscore];
-@MMK_L_v = [v wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ygrave];
+@MMK_L_v = [v wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ygrave uni1EF9];
 @MMK_L_w = [w];
 @MMK_L_x = [x];
 @MMK_L_z = [z zacute zcaron zdotaccent];
 @MMK_L_zero = [zero three eight zero.zero];
 @MMK_L_zero.dnom = [zero.dnom three.dnom eight.dnom zero.numr three.numr eight.numr zero.dnom.zero zero.numr.zero zero.subs three.subs eight.subs uni2070 uni00B3 uni2078 zero.subs.zero uni2070.zero];
 @MMK_L_zero.osf = [zero.osf three.osf eight.osf zero.osf.zero];
-@MMK_R_A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Delta uni25B3];
+@MMK_R_A = [A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde Delta uni2206 uni25B3];
 @MMK_R_AE = [AE];
 @MMK_R_Eth = [Dcroat Eth];
-@MMK_R_H = [B D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F H Hcircumflex I K uni0136 L Lacute Lcaron uni013B Ldot Lslash M N Nacute Ncaron uni0145 Ntilde Eng P Thorn R Racute Rcaron uni0156 uni1E9E Ldot.ss04 Ldot.ss05 uni27F2 uni25A1];
+@MMK_R_H = [B D Dcaron E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek uni1EBC F H Hcircumflex I IJ K uni0136 L Lacute Lcaron uni013B Ldot Lslash M N Nacute Ncaron uni0145 Ntilde Eng P Thorn R Racute Rcaron uni0156 uni1E9E Ldot.ss04 Ldot.ss05 uni27F2 uni25A1];
 @MMK_R_Hbar = [Hbar];
 @MMK_R_I = [Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde];
 @MMK_R_J = [J uni004A0301 Jcircumflex Jdotaccent];
-@MMK_R_O = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent G Gbreve Gcircumflex uni0122 Gdotaccent O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE Q S Sacute Scaron Scedilla Scircumflex uni0218 Omega at copyright registered estimated dollar uni27F3 circle];
+@MMK_R_O = [C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent uni018F G Gbreve Gcircumflex uni0122 Gdotaccent O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE Q S Sacute Scaron Scedilla Scircumflex uni0218 Omega at copyright registered estimated dollar uni27F3 circle];
 @MMK_R_T = [T Tbar Tcaron uni0162 uni021A];
 @MMK_R_U = [U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde];
 @MMK_R_V = [V Wacute Wcircumflex Wdieresis Wgrave];
 @MMK_R_W = [W];
 @MMK_R_X = [X];
-@MMK_R_Y = [Y Yacute Ycircumflex Ydieresis Ygrave yen];
+@MMK_R_Y = [Y Yacute Ycircumflex Ydieresis Ygrave uni1EF8 yen];
 @MMK_R_Z = [Z Zacute Zcaron Zdotaccent];
 @MMK_R_a = [a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae];
 @MMK_R_ampersand = [ampersand];
@@ -195,7 +196,7 @@
 @MMK_R_guilsinglright = [guillemotright guilsinglright];
 @MMK_R_h = [b h hbar hcircumflex k uni0137 l lacute lcaron uni013C ldot lslash thorn germandbls l.ss02 lacute.ss02 lcaron.ss02 uni013C.ss02 ldot.ss02 lslash.ss02 ldot.ss04 ldot.ss05 ldot.ss02.ss04 ldot.ss02.ss05];
 @MMK_R_hyphen = [hyphen uni00AD endash emdash];
-@MMK_R_i = [i dotlessi iacute ibreve icircumflex idieresis i.loclTRK igrave imacron iogonek itilde];
+@MMK_R_i = [i dotlessi iacute ibreve icircumflex idieresis i.loclTRK igrave imacron iogonek itilde ij];
 @MMK_R_infinity = [infinity];
 @MMK_R_integral = [integral];
 @MMK_R_j = [j uni0237 uni006A0301 jcircumflex];
@@ -213,7 +214,7 @@
 @MMK_R_nine.dnom = [nine.dnom nine.numr nine.subs uni2079];
 @MMK_R_nine.osf = [nine.osf];
 @MMK_R_numbersign = [numbersign];
-@MMK_R_o = [c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat eth e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek g gbreve gcircumflex uni0123 gdotaccent o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe q s sacute scaron scedilla scircumflex uni0219 uni26AA cent];
+@MMK_R_o = [c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat eth e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek uni1EBD uni0259 g gbreve gcircumflex uni0123 gdotaccent o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe q s sacute scaron scedilla scircumflex uni0219 uni26AA cent];
 @MMK_R_one = [one];
 @MMK_R_one.dnom = [one.dnom one.numr one.subs uni00B9];
 @MMK_R_one.osf = [one.osf];
@@ -259,7 +260,7 @@
 @MMK_R_two.osf = [two.osf];
 @MMK_R_twothirds = [uni2154];
 @MMK_R_underscore = [underscore];
-@MMK_R_v = [v wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ygrave];
+@MMK_R_v = [v wacute wcircumflex wdieresis wgrave y yacute ycircumflex ydieresis ygrave uni1EF9];
 @MMK_R_w = [w];
 @MMK_R_x = [x];
 @MMK_R_z = [z zacute zcaron zdotaccent];
@@ -346,17 +347,19 @@ feature ss05;
 ### feature:1:ccmp ###
 feature ccmp {
 ### open feature 'ccmp' ###
-lookup ccmp_Other_1 {
+lookup ccmp_DFLT_1 {
 	@CombiningTopAccents = [acutecomb uni0306 uni030C uni0302 uni0312 uni0308 uni0307 gravecomb uni030B uni0304 uni030A tildecomb];
-	@CombiningNonTopAccents = [uni0327 uni0328];
-	sub [i j]' @CombiningTopAccents by [dotlessi uni0237];
-	sub [i j]' @CombiningNonTopAccents @CombiningTopAccents by [dotlessi uni0237];
-} ccmp_Other_1;
+	lookupflag UseMarkFilteringSet @CombiningTopAccents;
+	sub i' @CombiningTopAccents by dotlessi;
+	sub j' @CombiningTopAccents by uni0237;
+} ccmp_DFLT_1;
 
 lookup ccmp_latn_1 {
+	lookupflag 0;
 	sub fi by f i;
 	sub fl by f l;
 	sub Ldot by L periodcentered.loclCAT.case;
+	sub ldot by l periodcentered.loclCAT;
 } ccmp_latn_1;
 
 script latn;
@@ -367,44 +370,41 @@ lookup ccmp_latn_1;
 ### feature:2:locl ###
 feature locl {
 ### open feature 'locl' ###
+script latn;
+language AZE;
 lookup locl_latn_0 {
-	script latn;
-	language AZE;
-	sub i by i;
-	language CRT;
-	sub i by i;
-	language KAZ;
-	sub i by i;
-	language TAT;
-	sub i by i;
-	language TRK;
-	sub i by i;
+	sub i by i.loclTRK;
 } locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
 
+script latn;
+language ROM;
 lookup locl_latn_1 {
-	script latn;
-	language ROM;
-	sub Scedilla by uni0218;
-	sub scedilla by uni0219;
-	sub uni0162 by uni021A;
-	sub uni0163 by uni021B;
-	language MOL;
 	sub Scedilla by uni0218;
 	sub scedilla by uni0219;
 	sub uni0162 by uni021A;
 	sub uni0163 by uni021B;
 } locl_latn_1;
+language MOL;
+lookup locl_latn_1;
 
+script latn;
+language CAT;
 lookup locl_latn_2 {
-	script latn;
-	language CAT;
 	sub l periodcentered' l by periodcentered.loclCAT;
 	sub L periodcentered' L by periodcentered.loclCAT.case;
 } locl_latn_2;
 
+script latn;
+language NLD;
 lookup locl_latn_3 {
-	script latn;
-	language NLD;
 	sub iacute j' by uni006A0301;
 	sub Iacute J' by uni004A0301;
 } locl_latn_3;
@@ -460,6 +460,13 @@ sub equal by equal.subs;
 ### feature:5:sups ###
 feature sups {
 ### open feature 'sups' ###
+sub period by period.sups;
+sub parenleft by parenleft.sups;
+sub parenright by parenright.sups;
+sub plus by plus.sups;
+sub minus by minus.sups;
+sub multiply by multiply.sups;
+sub equal by equal.sups;
 sub zero by uni2070;
 sub one by uni00B9;
 sub two by uni00B2;
@@ -470,13 +477,6 @@ sub six by uni2076;
 sub seven by uni2077;
 sub eight by uni2078;
 sub nine by uni2079;
-sub period by period.sups;
-sub parenleft by parenleft.sups;
-sub parenright by parenright.sups;
-sub plus by plus.sups;
-sub minus by minus.sups;
-sub multiply by multiply.sups;
-sub equal by equal.sups;
 ### close feature 'sups' ###
 } sups;
 
@@ -533,11 +533,11 @@ lookup FRAC {
 	sub slash by fraction;
 } FRAC;
 lookup UP {
-	sub [zero one two three four five six seven eight nine] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr];
+	sub [zero one two three four five six seven eight nine parenleft parenright period plus minus multiply equal] by [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr];
 } UP;
 lookup DOWN {
-	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
-	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom];
+	sub fraction [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom];
+	sub [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom] [zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr parenleft.numr parenright.numr period.numr plus.numr minus.numr multiply.numr equal.numr]' by [zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom parenleft.dnom parenright.dnom period.dnom plus.dnom minus.dnom multiply.dnom equal.dnom];
 } DOWN;
 ### close feature 'frac' ###
 } frac;
@@ -599,15 +599,7 @@ sub nine.osf by nine;
 ### close feature 'case' ###
 } case;
 
-### feature:13:dlig ###
-feature dlig {
-### open feature 'dlig' ###
-lookupflag IgnoreMarks;
-sub f l by fl.ss02;
-### close feature 'dlig' ###
-} dlig;
-
-### feature:14:liga ###
+### feature:13:liga ###
 feature liga {
 ### open feature 'liga' ###
 lookupflag IgnoreMarks;
@@ -616,19 +608,19 @@ sub f l by fl;
 ### close feature 'liga' ###
 } liga;
 
-### feature:15:zero ###
+### feature:14:zero ###
 feature zero {
 ### open feature 'zero' ###
 sub zero by zero.zero;
 sub zero.osf by zero.osf.zero;
-sub zero.subs by zero.subs.zero;
 sub zero.dnom by zero.dnom.zero;
 sub zero.numr by zero.numr.zero;
+sub zero.subs by zero.subs.zero;
 sub uni2070 by uni2070.zero;
 ### close feature 'zero' ###
 } zero;
 
-### feature:16:ss01 ###
+### feature:15:ss01 ###
 feature ss01 {
 ### open feature 'ss01' ###
 sub g by g.ss01;
@@ -639,7 +631,7 @@ sub gdotaccent by gdotaccent.ss01;
 ### close feature 'ss01' ###
 } ss01;
 
-### feature:17:ss02 ###
+### feature:16:ss02 ###
 feature ss02 {
 ### open feature 'ss02' ###
 sub l by l.ss02;
@@ -653,7 +645,7 @@ sub periodcentered.loclCAT by periodcentered.loclCAT.ss02;
 ### close feature 'ss02' ###
 } ss02;
 
-### feature:18:ss03 ###
+### feature:17:ss03 ###
 feature ss03 {
 ### open feature 'ss03' ###
 sub y by y.ss03;
@@ -664,12 +656,14 @@ sub ygrave by ygrave.ss03;
 ### close feature 'ss03' ###
 } ss03;
 
-### feature:19:ss04 ###
+### feature:18:ss04 ###
 feature ss04 {
 ### open feature 'ss04' ###
 sub Ldot by Ldot.ss04;
 sub ldot by ldot.ss04;
 sub ldot.ss02 by ldot.ss02.ss04;
+sub period.dnom by period.dnom.ss04;
+sub period.numr by period.numr.ss04;
 sub period by period.ss04;
 sub colon by colon.ss04;
 sub semicolon by semicolon.ss04;
@@ -679,9 +673,7 @@ sub exclamdown by exclamdown.ss04;
 sub question by question.ss04;
 sub questiondown by questiondown.ss04;
 sub periodcentered by periodcentered.ss04;
-sub period.dnom by period.dnom.ss04;
 sub periodcentered.loclCAT by periodcentered.loclCAT.ss04;
-sub period.numr by period.numr.ss04;
 sub period.subs by period.subs.ss04;
 sub period.sups by period.sups.ss04;
 sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss04;
@@ -689,12 +681,14 @@ sub periodcentered.loclCAT.ss02 by periodcentered.loclCAT.ss02.ss04;
 ### close feature 'ss04' ###
 } ss04;
 
-### feature:20:ss05 ###
+### feature:19:ss05 ###
 feature ss05 {
 ### open feature 'ss05' ###
 sub Ldot by Ldot.ss05;
 sub ldot by ldot.ss05;
 sub ldot.ss02 by ldot.ss02.ss05;
+sub period.dnom by period.dnom.ss05;
+sub period.numr by period.numr.ss05;
 sub period by period.ss05;
 sub colon by colon.ss05;
 sub semicolon by semicolon.ss05;
@@ -704,9 +698,7 @@ sub exclamdown by exclamdown.ss05;
 sub question by question.ss05;
 sub questiondown by questiondown.ss05;
 sub periodcentered by periodcentered.ss05;
-sub period.dnom by period.dnom.ss05;
 sub periodcentered.loclCAT by periodcentered.loclCAT.ss05;
-sub period.numr by period.numr.ss05;
 sub period.subs by period.subs.ss05;
 sub period.sups by period.sups.ss05;
 sub periodcentered.loclCAT.case by periodcentered.loclCAT.case.ss05;
@@ -979,10 +971,12 @@ feature kern {
 		pos Ldot Egrave 0;
 		pos Ldot Emacron 0;
 		pos Ldot Eogonek 0;
+		pos Ldot uni1EBC 0;
 		pos Ldot F 0;
 		pos Ldot H 0;
 		pos Ldot Hcircumflex 0;
 		pos Ldot I 0;
+		pos Ldot IJ 0;
 		pos Ldot K 0;
 		pos Ldot uni0136 0;
 		pos Ldot L 0;
@@ -1050,10 +1044,12 @@ feature kern {
 		pos Ldot.ss04 Egrave 0;
 		pos Ldot.ss04 Emacron 0;
 		pos Ldot.ss04 Eogonek 0;
+		pos Ldot.ss04 uni1EBC 0;
 		pos Ldot.ss04 F 0;
 		pos Ldot.ss04 H 0;
 		pos Ldot.ss04 Hcircumflex 0;
 		pos Ldot.ss04 I 0;
+		pos Ldot.ss04 IJ 0;
 		pos Ldot.ss04 K 0;
 		pos Ldot.ss04 uni0136 0;
 		pos Ldot.ss04 L 0;
@@ -1093,10 +1089,12 @@ feature kern {
 		pos Ldot.ss05 Egrave 0;
 		pos Ldot.ss05 Emacron 0;
 		pos Ldot.ss05 Eogonek 0;
+		pos Ldot.ss05 uni1EBC 0;
 		pos Ldot.ss05 F 0;
 		pos Ldot.ss05 H 0;
 		pos Ldot.ss05 Hcircumflex 0;
 		pos Ldot.ss05 I 0;
+		pos Ldot.ss05 IJ 0;
 		pos Ldot.ss05 K 0;
 		pos Ldot.ss05 uni0136 0;
 		pos Ldot.ss05 L 0;
@@ -1578,7 +1576,7 @@ feature mark {
 		pos base S <anchor 292 0> mark @mark_bottom <anchor 298 680> mark @mark_top;
 		pos base T <anchor 260 0> mark @mark_bottom <anchor 260 680> mark @mark_top;
 		pos base uni021A <anchor 250 -252> mark @mark_bottom;
-		pos base U <anchor 343 0> mark @mark_bottom <anchor 342 680> mark @mark_top;
+		pos base U <anchor 347 0> mark @mark_bottom <anchor 346 680> mark @mark_top;
 		pos base W <anchor 455 0> mark @mark_bottom <anchor 453 680> mark @mark_top;
 		pos base Y <anchor 288 -16> mark @mark_bottom <anchor 291 680> mark @mark_top;
 		pos base Z <anchor 305 0> mark @mark_bottom <anchor 300 680> mark @mark_top;
@@ -1611,7 +1609,7 @@ feature mark {
 		pos base E <anchor 441 10> mark @mark_ogonek;
 		pos base I <anchor 140 0> mark @mark_ogonek;
 		pos base O <anchor 358 0> mark @mark_ogonek;
-		pos base U <anchor 358 0> mark @mark_ogonek;
+		pos base U <anchor 362 0> mark @mark_ogonek;
 		pos base a <anchor 441 0> mark @mark_ogonek;
 		pos base e <anchor 412 35> mark @mark_ogonek;
 		pos base dotlessi <anchor 140 0> mark @mark_ogonek;
@@ -1622,7 +1620,7 @@ feature mark {
 		lookupflag 0;
 		pos base L <anchor 333 734> mark @mark_topright;
 		pos base O <anchor 691 696> mark @mark_topright;
-		pos base U <anchor 660 696> mark @mark_topright;
+		pos base U <anchor 664 696> mark @mark_topright;
 		pos base d <anchor 623 745> mark @mark_topright;
 		pos base l <anchor 285 745> mark @mark_topright;
 		pos base o <anchor 533 555> mark @mark_topright;

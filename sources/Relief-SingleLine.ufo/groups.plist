@@ -15,6 +15,7 @@
       <string>Aring</string>
       <string>Atilde</string>
       <string>Delta</string>
+      <string>uni2206</string>
       <string>uni25B3</string>
     </array>
     <key>public.kern1.B</key>
@@ -34,6 +35,7 @@
       <string>Egrave</string>
       <string>Emacron</string>
       <string>Eogonek</string>
+      <string>uni1EBC</string>
       <string>OE</string>
     </array>
     <key>public.kern1.F</key>
@@ -49,6 +51,7 @@
       <string>H</string>
       <string>Hcircumflex</string>
       <string>I</string>
+      <string>IJ</string>
       <string>J</string>
       <string>uni004A0301</string>
       <string>Jcircumflex</string>
@@ -110,6 +113,7 @@
       <string>Dcaron</string>
       <string>Dcroat</string>
       <string>Eth</string>
+      <string>uni018F</string>
       <string>G</string>
       <string>Gbreve</string>
       <string>Gcircumflex</string>
@@ -201,6 +205,7 @@
       <string>Ycircumflex</string>
       <string>Ydieresis</string>
       <string>Ygrave</string>
+      <string>uni1EF8</string>
       <string>yen</string>
     </array>
     <key>public.kern1.Z</key>
@@ -460,6 +465,10 @@
     <array>
       <string>integral</string>
     </array>
+    <key>public.kern1.j</key>
+    <array>
+      <string>ij</string>
+    </array>
     <key>public.kern1.k</key>
     <array>
       <string>k</string>
@@ -605,6 +614,8 @@
       <string>egrave</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>uni1EBD</string>
+      <string>uni0259</string>
       <string>o</string>
       <string>oacute</string>
       <string>obreve</string>
@@ -878,6 +889,7 @@
       <string>ycircumflex</string>
       <string>ydieresis</string>
       <string>ygrave</string>
+      <string>uni1EF9</string>
     </array>
     <key>public.kern1.w</key>
     <array>
@@ -940,6 +952,7 @@
       <string>Aring</string>
       <string>Atilde</string>
       <string>Delta</string>
+      <string>uni2206</string>
       <string>uni25B3</string>
     </array>
     <key>public.kern2.AE</key>
@@ -966,10 +979,12 @@
       <string>Egrave</string>
       <string>Emacron</string>
       <string>Eogonek</string>
+      <string>uni1EBC</string>
       <string>F</string>
       <string>H</string>
       <string>Hcircumflex</string>
       <string>I</string>
+      <string>IJ</string>
       <string>K</string>
       <string>uni0136</string>
       <string>L</string>
@@ -1029,6 +1044,7 @@
       <string>Ccedilla</string>
       <string>Ccircumflex</string>
       <string>Cdotaccent</string>
+      <string>uni018F</string>
       <string>G</string>
       <string>Gbreve</string>
       <string>Gcircumflex</string>
@@ -1106,6 +1122,7 @@
       <string>Ycircumflex</string>
       <string>Ydieresis</string>
       <string>Ygrave</string>
+      <string>uni1EF8</string>
       <string>yen</string>
     </array>
     <key>public.kern2.Z</key>
@@ -1362,6 +1379,7 @@
       <string>imacron</string>
       <string>iogonek</string>
       <string>itilde</string>
+      <string>ij</string>
     </array>
     <key>public.kern2.infinity</key>
     <array>
@@ -1495,6 +1513,8 @@
       <string>egrave</string>
       <string>emacron</string>
       <string>eogonek</string>
+      <string>uni1EBD</string>
+      <string>uni0259</string>
       <string>g</string>
       <string>gbreve</string>
       <string>gcircumflex</string>
@@ -1770,6 +1790,7 @@
       <string>ycircumflex</string>
       <string>ydieresis</string>
       <string>ygrave</string>
+      <string>uni1EF9</string>
     </array>
     <key>public.kern2.w</key>
     <array>

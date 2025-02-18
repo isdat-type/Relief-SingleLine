@@ -2,7 +2,6 @@
 <glyph name="arrowboth" format="2">
   <advance width="1179"/>
   <unicode hex="2194"/>
-  <guideline x="68" y="605" angle="0"/>
   <outline>
     <contour>
       <point x="354" y="41" type="move"/>

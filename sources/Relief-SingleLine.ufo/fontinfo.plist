@@ -12,53 +12,10 @@
     <integer>-190</integer>
     <key>familyName</key>
     <string>Relief SingleLine</string>
-    <key>guidelines</key>
-    <array>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>f1.2</string>
-        <key>x</key>
-        <integer>0</integer>
-        <key>y</key>
-        <integer>-2363</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>f2</string>
-        <key>x</key>
-        <integer>0</integer>
-        <key>y</key>
-        <integer>-188</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>f4</string>
-        <key>x</key>
-        <integer>0</integer>
-        <key>y</key>
-        <integer>745</integer>
-      </dict>
-      <dict>
-        <key>angle</key>
-        <integer>0</integer>
-        <key>name</key>
-        <string>f4.1</string>
-        <key>x</key>
-        <integer>0</integer>
-        <key>y</key>
-        <integer>575</integer>
-      </dict>
-    </array>
     <key>italicAngle</key>
     <integer>0</integer>
     <key>openTypeHeadCreated</key>
-    <string>2022/01/03 09:24:47</string>
+    <string>2025/02/18 13:15:28</string>
     <key>openTypeHheaAscender</key>
     <integer>1030</integer>
     <key>openTypeHheaDescender</key>

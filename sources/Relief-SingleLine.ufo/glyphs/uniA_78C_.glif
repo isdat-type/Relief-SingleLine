@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniA78C" format="2">
+  <advance width="100"/>
+  <unicode hex="A78C"/>
+  <outline>
+    <contour>
+      <point x="50" y="745" type="move"/>
+      <point x="50" y="555" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.85,0.26,0.06,1</string>
+    </dict>
+  </lib>
+</glyph>

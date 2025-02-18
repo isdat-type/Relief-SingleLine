@@ -2,8 +2,6 @@
 <glyph name="ae" format="2">
   <advance width="908"/>
   <unicode hex="00E6"/>
-  <guideline x="861" y="-64" angle="0"/>
-  <guideline x="118" y="-64" angle="0"/>
   <outline>
     <contour>
       <point x="450" y="138" type="move"/>

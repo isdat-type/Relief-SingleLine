@@ -3,7 +3,7 @@
   <advance width="717"/>
   <unicode hex="0025"/>
   <outline>
-    <component base="fraction" xOffset="298" identifier="4132CF9E"/>
+    <component base="fraction" xOffset="298" identifier="929746FE"/>
     <contour>
       <point x="180" y="680" type="move"/>
       <point x="106" y="680"/>
@@ -39,7 +39,7 @@
     <dict>
       <key>public.objectLibs</key>
       <dict>
-        <key>4132CF9E</key>
+        <key>929746FE</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>

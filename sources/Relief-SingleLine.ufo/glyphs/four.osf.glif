@@ -1,9 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="four.osf" format="2">
   <advance width="567"/>
-  <guideline x="124" y="-64" angle="0"/>
-  <guideline x="495" y="-64" angle="0"/>
-  <guideline x="545" y="-64" angle="0"/>
   <outline>
     <contour>
       <point x="383" y="-133" type="move"/>

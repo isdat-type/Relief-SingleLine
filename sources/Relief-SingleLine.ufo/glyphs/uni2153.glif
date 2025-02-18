@@ -4,7 +4,7 @@
   <unicode hex="2153"/>
   <outline>
     <component base="three" xScale="0.5" yScale="0.5" xOffset="356"/>
-    <component base="fraction" xOffset="234" identifier="EC295D12"/>
+    <component base="fraction" xOffset="234" identifier="2CE45608"/>
     <component base="one" xScale="0.5" yScale="0.5" yOffset="340"/>
   </outline>
   <lib>
@@ -13,7 +13,7 @@
       <string>2021-03-17 07:33:32 +0000</string>
       <key>public.objectLibs</key>
       <dict>
-        <key>EC295D12</key>
+        <key>2CE45608</key>
         <dict>
           <key>com.schriftgestaltung.alignment</key>
           <integer>-1</integer>
