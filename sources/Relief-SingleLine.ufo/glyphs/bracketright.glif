@@ -1,16 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="bracketright" format="2">
-	<advance width="295"/>
-	<unicode hex="005D"/>
-	<outline>
-		<component base="bracketleft" xScale="-1" xOffset="295"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>=|bracketleft</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=|bracketleft</string>
-		</dict>
-	</lib>
+  <advance width="295"/>
+  <unicode hex="005D"/>
+  <outline>
+    <contour>
+      <point x="70" y="731" type="move"/>
+      <point x="195" y="731" type="line"/>
+      <point x="195" y="-116" type="line"/>
+      <point x="70" y="-116" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|bracketleft</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|bracketleft</string>
+    </dict>
+  </lib>
 </glyph>

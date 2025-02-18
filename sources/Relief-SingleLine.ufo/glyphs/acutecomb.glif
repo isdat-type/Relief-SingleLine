@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="acutecomb" format="2">
-	<advance width="0"/>
-	<unicode hex="0301"/>
-	<anchor x="78" y="555" name="_top"/>
-	<anchor x="78" y="790" name="top"/>
-	<outline>
-		<contour>
-			<point x="10" y="657" type="move"/>
-			<point x="145" y="790" type="line"/>
-		</contour>
-	</outline>
+  <advance width="0"/>
+  <unicode hex="0301"/>
+  <anchor x="78" y="555" name="_top"/>
+  <anchor x="78" y="790" name="top"/>
+  <outline>
+    <contour>
+      <point x="10" y="657" type="move"/>
+      <point x="145" y="790" type="line"/>
+    </contour>
+  </outline>
 </glyph>

@@ -1,36 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="h" format="2">
-	<advance width="608"/>
-	<unicode hex="0068"/>
-	<anchor x="304" y="0" name="bottom"/>
-	<anchor x="304" y="373" name="center"/>
-	<anchor x="304" y="745" name="top"/>
-	<outline>
-		<contour>
-			<point x="140" y="745" type="move"/>
-			<point x="140" y="0" type="line"/>
-		</contour>
-		<component base="_module_n" xOffset="140"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>_module_n</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-17 07:33:32 +0000</string>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>n</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>n</string>
-		</dict>
-	</lib>
+  <advance width="608"/>
+  <unicode hex="0068"/>
+  <anchor x="304" y="0" name="bottom"/>
+  <anchor x="304" y="373" name="center"/>
+  <anchor x="304" y="745" name="top"/>
+  <outline>
+    <contour>
+      <point x="140" y="0" type="move"/>
+      <point x="140" y="745" type="line"/>
+    </contour>
+    <component base="_module_n" xOffset="140" identifier="54E6B8D6"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021-03-17 07:33:32 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>n</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>n</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>54E6B8D6</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

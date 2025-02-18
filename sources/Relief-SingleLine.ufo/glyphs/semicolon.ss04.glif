@@ -1,14 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="semicolon.ss04" format="2">
-	<advance width="278"/>
-	<outline>
-		<component base="period.ss04" xOffset="24" yOffset="455"/>
-		<component base="comma" xOffset="20"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>comma</string>
-		</dict>
-	</lib>
+  <advance width="278"/>
+  <outline>
+    <component base="period.ss04" xOffset="24" yOffset="455"/>
+    <component base="comma" xOffset="20"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>comma</string>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

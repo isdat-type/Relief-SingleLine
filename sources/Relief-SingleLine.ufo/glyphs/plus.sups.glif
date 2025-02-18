@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus.sups" format="2">
-	<advance width="332"/>
-	<outline>
-		<component base="plus" xScale="0.5" yScale="0.5" yOffset="405"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>plus</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>minus.dnom</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>minus.dnom</string>
-		</dict>
-	</lib>
+  <advance width="332"/>
+  <outline>
+    <component base="plus" xScale="0.5" yScale="0.5" yOffset="405" identifier="EAFDEE03"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>minus.dnom</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>minus.dnom</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>EAFDEE03</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

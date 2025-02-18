@@ -1,17 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis.ss05" format="2">
-	<advance width="900"/>
-	<outline>
-		<component base="period.ss05"/>
-		<component base="period.ss05" xOffset="313"/>
-		<component base="period.ss05" xOffset="626"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>period.ss05</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>period.ss05</string>
-		</dict>
-	</lib>
+  <advance width="900"/>
+  <outline>
+    <component base="period.ss05"/>
+    <component base="period.ss05" xOffset="313"/>
+    <component base="period.ss05" xOffset="626"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>period.ss05</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>period.ss05</string>
+    </dict>
+  </lib>
 </glyph>

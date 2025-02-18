@@ -1,26 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="equal.numr" format="2">
-	<advance width="317"/>
-	<outline>
-		<component base="equal" xScale="0.5" yScale="0.5" xOffset="20" yOffset="340"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>equal</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>equal.dnom</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>equal.dnom</string>
-		</dict>
-	</lib>
+  <advance width="317"/>
+  <outline>
+    <component base="equal" xScale="0.5" yScale="0.5" xOffset="20" yOffset="340" identifier="5F62D56A"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>equal.dnom</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>equal.dnom</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>5F62D56A</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

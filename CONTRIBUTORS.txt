@@ -10,7 +10,7 @@
 # Name <email address>
 
 François Chastanet <contact@francoischastanet.com>
-Noëlie Dayma <noelie.dayma@isdat.fr> 
-Élisa Garzelli <elisa.garzelli@isdat.fr>
+Noëlie Dayma 
+Élisa Garzelli <contact@elisagarzelli.com>
 Tanguy Vanlaeys <vanlaeys.tanguy1@gmail.com>
 Frederik Berlaen <frederik@typemytype.com>

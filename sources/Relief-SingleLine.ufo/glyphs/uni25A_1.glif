@@ -1,22 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni25A1" format="2">
-	<advance width="940"/>
-	<unicode hex="25A1"/>
-	<outline>
-		<contour>
-			<point x="140" y="668" type="move"/>
-			<point x="140" y="10" type="line"/>
-			<point x="800" y="10" type="line"/>
-			<point x="800" y="670" type="line"/>
-			<point x="140" y="670" type="line"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>H</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>H</string>
-		</dict>
-	</lib>
+  <advance width="940"/>
+  <unicode hex="25A1"/>
+  <outline>
+    <contour>
+      <point x="140" y="668" type="move"/>
+      <point x="140" y="10" type="line"/>
+      <point x="800" y="10" type="line"/>
+      <point x="800" y="670" type="line"/>
+      <point x="140" y="670" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>H</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>H</string>
+    </dict>
+  </lib>
 </glyph>

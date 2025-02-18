@@ -1,16 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="summation" format="2">
-	<advance width="531"/>
-	<unicode hex="2211"/>
-	<outline>
-		<contour>
-			<point x="491" y="-93" type="move"/>
-			<point x="60" y="-93" type="line"/>
-			<point x="60" y="-89" type="line"/>
-			<point x="331" y="290" type="line"/>
-			<point x="78" y="666" type="line"/>
-			<point x="78" y="670" type="line"/>
-			<point x="474" y="670" type="line"/>
-		</contour>
-	</outline>
+  <advance width="531"/>
+  <unicode hex="2211"/>
+  <outline>
+    <contour>
+      <point x="491" y="-93" type="move"/>
+      <point x="60" y="-93" type="line"/>
+      <point x="60" y="-89" type="line"/>
+      <point x="331" y="290" type="line"/>
+      <point x="78" y="666" type="line"/>
+      <point x="78" y="670" type="line"/>
+      <point x="474" y="670" type="line"/>
+    </contour>
+  </outline>
 </glyph>

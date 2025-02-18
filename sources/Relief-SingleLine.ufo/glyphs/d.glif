@@ -1,36 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="d" format="2">
-	<advance width="613"/>
-	<unicode hex="0064"/>
-	<guideline x="258" y="697" angle="0"/>
-	<anchor x="473" y="0" name="bottom"/>
-	<anchor x="473" y="278" name="center"/>
-	<anchor x="473" y="687" name="top"/>
-	<anchor x="623" y="745" name="topright"/>
-	<outline>
-		<contour>
-			<point x="473" y="745" type="move"/>
-			<point x="473" y="0" type="line"/>
-		</contour>
-		<component base="_module_rond" xScale="-1" xOffset="473"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>_module_rond</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>o</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=|n</string>
-		</dict>
-	</lib>
+  <advance width="613"/>
+  <unicode hex="0064"/>
+  <guideline x="258" y="697" angle="0"/>
+  <anchor x="473" y="0" name="bottom"/>
+  <anchor x="473" y="278" name="center"/>
+  <anchor x="473" y="687" name="top"/>
+  <anchor x="623" y="745" name="topright"/>
+  <outline>
+    <contour>
+      <point x="473" y="0" type="move"/>
+      <point x="473" y="745" type="line"/>
+    </contour>
+    <contour>
+      <point x="473" y="421" type="move"/>
+      <point x="419" y="517"/>
+      <point x="352" y="555"/>
+      <point x="279" y="555" type="curve" smooth="yes"/>
+      <point x="157" y="555"/>
+      <point x="90" y="447"/>
+      <point x="90" y="279" type="curve" smooth="yes"/>
+      <point x="90" y="132"/>
+      <point x="144" y="0"/>
+      <point x="280" y="0" type="curve" smooth="yes"/>
+      <point x="365" y="0"/>
+      <point x="430" y="52"/>
+      <point x="473" y="137" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|n</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0304" format="2">
-	<advance width="0"/>
-	<unicode hex="0304"/>
-	<anchor x="121" y="555" name="_top"/>
-	<anchor x="121" y="703" name="top"/>
-	<outline>
-		<contour>
-			<point x="231" y="703" type="move"/>
-			<point x="10" y="703" type="line"/>
-		</contour>
-	</outline>
+  <advance width="0"/>
+  <unicode hex="0304"/>
+  <anchor x="121" y="555" name="_top"/>
+  <anchor x="121" y="703" name="top"/>
+  <outline>
+    <contour>
+      <point x="231" y="703" type="move"/>
+      <point x="10" y="703" type="line"/>
+    </contour>
+  </outline>
 </glyph>

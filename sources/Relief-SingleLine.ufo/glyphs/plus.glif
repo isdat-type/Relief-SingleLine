@@ -1,23 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="plus" format="2">
-	<advance width="635"/>
-	<unicode hex="002B"/>
-	<outline>
-		<contour>
-			<point x="316" y="95" type="move"/>
-			<point x="316" y="560" type="line"/>
-		</contour>
-		<contour>
-			<point x="85" y="332" type="move"/>
-			<point x="550" y="332" type="line"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>minus</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>minus</string>
-		</dict>
-	</lib>
+  <advance width="635"/>
+  <unicode hex="002B"/>
+  <outline>
+    <contour>
+      <point x="316" y="95" type="move"/>
+      <point x="316" y="560" type="line"/>
+    </contour>
+    <contour>
+      <point x="85" y="332" type="move"/>
+      <point x="550" y="332" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>minus</string>
+    </dict>
+  </lib>
 </glyph>

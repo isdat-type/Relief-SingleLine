@@ -9,5 +9,5 @@ isdaT Graphic Design Department teacher:
 François Chastanet <francois.chastanet@isdat.fr>
 
 isdaT Graphic Design Department students:
-Noëlie Dayma <noelie.dayma@isdat.fr> 
-Élisa Garzelli <elisa.garzelli@isdat.fr>
+Noëlie Dayma 
+Élisa Garzelli <contact@elisagarzelli.com>

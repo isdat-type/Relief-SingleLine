@@ -1,42 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="oe" format="2">
-	<advance width="973"/>
-	<unicode hex="0153"/>
-	<guideline x="862" y="-64" angle="0"/>
-	<guideline x="48" y="78" angle="0"/>
-	<guideline x="48" y="68" angle="0"/>
-	<guideline x="48" y="50" angle="0"/>
-	<outline>
-		<component base="o"/>
-		<component base="e" xOffset="412"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>0</integer>
-					<key>name</key>
-					<string>o</string>
-				</dict>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>e</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-17 07:33:32 +0000</string>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>o</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=o-5</string>
-		</dict>
-	</lib>
+  <advance width="973"/>
+  <unicode hex="0153"/>
+  <guideline x="862" y="-64" angle="0"/>
+  <guideline x="48" y="78" angle="0"/>
+  <guideline x="48" y="68" angle="0"/>
+  <guideline x="48" y="50" angle="0"/>
+  <outline>
+    <component base="o" identifier="5BACA484"/>
+    <component base="e" xOffset="412" identifier="EA95D509"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021-03-17 07:33:32 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=o-5</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>5BACA484</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+        <key>EA95D509</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

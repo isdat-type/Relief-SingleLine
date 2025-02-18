@@ -1,24 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="cent" format="2">
-	<advance width="531"/>
-	<unicode hex="00A2"/>
-	<outline>
-		<contour>
-			<point x="293" y="-138" type="move"/>
-			<point x="293" y="0" type="line"/>
-		</contour>
-		<contour>
-			<point x="293" y="555" type="move"/>
-			<point x="293" y="693" type="line"/>
-		</contour>
-		<component base="c"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>c</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>c</string>
-		</dict>
-	</lib>
+  <advance width="531"/>
+  <unicode hex="00A2"/>
+  <outline>
+    <contour>
+      <point x="293" y="-138" type="move"/>
+      <point x="293" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="293" y="555" type="move"/>
+      <point x="293" y="693" type="line"/>
+    </contour>
+    <component base="c"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>c</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>c</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="zero.osf.zero" format="2">
-	<advance width="620"/>
-	<outline>
-		<contour>
-			<point x="168" y="59" type="move"/>
-			<point x="457" y="510" type="line"/>
-		</contour>
-		<component base="zero.osf"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>zero.osf</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>zero.osf</string>
-		</dict>
-	</lib>
+  <advance width="620"/>
+  <outline>
+    <contour>
+      <point x="168" y="59" type="move"/>
+      <point x="457" y="510" type="line"/>
+    </contour>
+    <component base="zero.osf"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>zero.osf</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>zero.osf</string>
+    </dict>
+  </lib>
 </glyph>

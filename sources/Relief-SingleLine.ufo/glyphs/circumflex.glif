@@ -1,15 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="circumflex" format="2">
-	<advance width="242"/>
-	<unicode hex="02C6"/>
-	<guideline x="159" y="-64" angle="0"/>
-	<anchor x="121" y="555" name="_top"/>
-	<outline>
-		<contour>
-			<point x="232" y="648" type="move"/>
-			<point x="123" y="774" type="line"/>
-			<point x="119" y="774" type="line"/>
-			<point x="10" y="648" type="line"/>
-		</contour>
-	</outline>
+  <advance width="242"/>
+  <unicode hex="02C6"/>
+  <guideline x="159" y="-64" angle="0"/>
+  <anchor x="121" y="555" name="_top"/>
+  <outline>
+    <contour>
+      <point x="232" y="648" type="move"/>
+      <point x="123" y="774" type="line"/>
+      <point x="119" y="774" type="line"/>
+      <point x="10" y="648" type="line"/>
+    </contour>
+  </outline>
 </glyph>

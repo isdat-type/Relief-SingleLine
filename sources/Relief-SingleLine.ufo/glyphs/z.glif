@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="z" format="2">
-	<advance width="530"/>
-	<unicode hex="007A"/>
-	<anchor x="265" y="0" name="bottom"/>
-	<anchor x="265" y="280" name="center"/>
-	<anchor x="259" y="555" name="top"/>
-	<outline>
-		<contour>
-			<point x="450" y="10" type="move"/>
-			<point x="90" y="10" type="line"/>
-			<point x="90" y="14" type="line"/>
-			<point x="435" y="541" type="line"/>
-			<point x="435" y="545" type="line"/>
-			<point x="93" y="545" type="line"/>
-		</contour>
-	</outline>
+  <advance width="530"/>
+  <unicode hex="007A"/>
+  <anchor x="265" y="0" name="bottom"/>
+  <anchor x="265" y="280" name="center"/>
+  <anchor x="259" y="555" name="top"/>
+  <outline>
+    <contour>
+      <point x="450" y="10" type="move"/>
+      <point x="90" y="10" type="line"/>
+      <point x="90" y="14" type="line"/>
+      <point x="435" y="541" type="line"/>
+      <point x="435" y="545" type="line"/>
+      <point x="93" y="545" type="line"/>
+    </contour>
+  </outline>
 </glyph>

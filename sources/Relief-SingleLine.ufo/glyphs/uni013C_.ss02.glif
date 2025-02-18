@@ -1,8 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni013C.ss02" format="2">
-	<advance width="270"/>
-	<outline>
-		<component base="l.ss02"/>
-		<component base="uni0326" xOffset="50"/>
-	</outline>
+  <advance width="280"/>
+  <outline>
+    <component base="l.ss02"/>
+    <component base="uni0326" xOffset="50"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.75,0.75,0.75,1</string>
+    </dict>
+  </lib>
 </glyph>

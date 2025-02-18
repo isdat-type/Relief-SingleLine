@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="egrave" format="2">
-	<advance width="561"/>
-	<unicode hex="00E8"/>
-	<guideline x="272" y="-64" angle="0"/>
-	<guideline y="78"/>
-	<guideline y="68"/>
-	<guideline y="50"/>
-	<outline>
-		<component base="e"/>
-		<component base="gravecomb" xOffset="217"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-17 07:33:32 +0000</string>
-		</dict>
-	</lib>
+  <advance width="561"/>
+  <unicode hex="00E8"/>
+  <guideline x="272" y="-64" angle="0"/>
+  <guideline x="0" y="78" angle="0"/>
+  <guideline x="0" y="68" angle="0"/>
+  <guideline x="0" y="50" angle="0"/>
+  <outline>
+    <component base="e"/>
+    <component base="gravecomb" xOffset="217"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021-03-17 07:33:32 +0000</string>
+    </dict>
+  </lib>
 </glyph>

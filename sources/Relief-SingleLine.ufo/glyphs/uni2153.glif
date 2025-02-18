@@ -1,27 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni2153" format="2">
-	<advance width="639"/>
-	<unicode hex="2153"/>
-	<outline>
-		<component base="three" xScale="0.5" yScale="0.5" xOffset="356"/>
-		<component base="fraction" xOffset="234"/>
-		<component base="one" xScale="0.5" yScale="0.5" yOffset="340"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>fraction</string>
-				</dict>
-			</array>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-17 07:33:32 +0000</string>
-		</dict>
-	</lib>
+  <advance width="639"/>
+  <unicode hex="2153"/>
+  <outline>
+    <component base="three" xScale="0.5" yScale="0.5" xOffset="356"/>
+    <component base="fraction" xOffset="234" identifier="EC295D12"/>
+    <component base="one" xScale="0.5" yScale="0.5" yOffset="340"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021-03-17 07:33:32 +0000</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>EC295D12</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

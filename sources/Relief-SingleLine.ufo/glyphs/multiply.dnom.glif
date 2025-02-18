@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="multiply.dnom" format="2">
-	<advance width="270"/>
-	<outline>
-		<component base="multiply" xScale="0.5" yScale="0.5"/>
-	</outline>
+  <advance width="270"/>
+  <outline>
+    <component base="multiply" xScale="0.5" yScale="0.5"/>
+  </outline>
 </glyph>

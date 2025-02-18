@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni25E3" format="2">
-	<advance width="669"/>
-	<unicode hex="25E3"/>
-	<outline>
-		<contour>
-			<point x="61" y="278" type="move"/>
-			<point x="334" y="0" type="line"/>
-			<point x="609" y="278" type="line"/>
-			<point x="335" y="555" type="line"/>
-			<point x="60" y="278" type="line"/>
-		</contour>
-	</outline>
+  <advance width="669"/>
+  <unicode hex="25E3"/>
+  <outline>
+    <contour>
+      <point x="61" y="278" type="move"/>
+      <point x="334" y="0" type="line"/>
+      <point x="609" y="278" type="line"/>
+      <point x="335" y="555" type="line"/>
+      <point x="60" y="278" type="line"/>
+    </contour>
+  </outline>
 </glyph>

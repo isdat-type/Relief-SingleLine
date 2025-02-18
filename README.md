@@ -31,20 +31,20 @@ The Relief project is based on a main skeletal .glyphs + .ufo source and explore
 
 When using *Relief SingleLine* font with a laser-cutting machine, it is recommended to use the *cutting* function at low intensity and not the *engraving* function in order to reduce inscription’s tracing time on any surface (do preliminary laser power tests to determine the best speed-power couple for each material to engrave with an inscription).
 
-# How to use the Open Paths?
+# How to use an open paths font?
 ## Adobe CC ≥2019: OpenType-SVG color font method
 ## →fonts/open_otf-svg/
 
 As this project is primarily focusing on graphic user interface solutions opened the largest possible audiences, *Relief SingleLine* typeface is distributed as an OpenType-SVG color font format in order to simplify the layout process for the 2D fab lab community, i.e. having a single-line font editable in popular vector graphics and typographic composition softwares such as Illustrator or Indesign. OpenType-SVG technology represents an interesting alternative to permit single-line fonts wider distribution and easier use. To our knowledge, *Relief SingleLine* is the first single-line font working in Adobe apps (CC 2019 and above), opening new perspectives for makers worldwide. Fab lab users oriented towards 2D graphic practices can now easily access quality Bézier curves, kerning and OpenType features in their single-line typographical layouts!
 
-Simply install the `ReliefSingleLine-Regular_svg.otf` on your system (or directly in the / Fonts subfolder of Illustrator or Indesign), open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the / Text / Vectorize function to obtain a single-line design to export as PDF or SVG file to engrave through your favorite CNC machine (pen plotters, laser cutting or milling machine).
+Simply install the `ReliefSingleLineOTF-SVG-Regular_svg.otf` on your system (or directly in the / Fonts subfolder of Illustrator or Indesign), open Illustrator or Indesign, compose your paragraphs and titlings; when the layout is finished, duplicate it and just use the / Text / Vectorize function to obtain a single-line design to export as PDF or SVG file to engrave through your favorite CNC machine (pen plotters, laser cutting or milling machine).
 
 *Relief SingleLine* export as OpenType-SVG format was made possible thanks to [Frederik Berlaen](https://typemytype.com/)’s *SingleLine_otf-svgMaker* Python script for [Robofont](https://robofont.com/). This script permits to export any skeletal UFO-based font project towards a single-line / open paths OpenType-SVG font. *SingleLine_otf-svgMaker* uses [roundingPen](https://github.com/typemytype/outlinerRoboFontExtension/blob/master/Outliner.roboFontExt/lib/outlinePen.py) script by Frederik Berlaen. *SingleLine_otf-svgMaker* Python script is available on [SingleLine_otf-svgMaker](https://github.com/isdat-type/SingleLine_otf-svgMaker) separated isdaT-type’s Github repository.
 
 ## Inkscape + Hershey Text Extension SVG fonts method
 ## →fonts/open_svg/
 
-First install `ReliefSingleLineOutline-Regular.otf` on your system; then copy `ReliefSingleLine-Regular.svg` there:
+First install `ReliefSingleLineOutline-Regular.otf` on your system; then copy `ReliefSingleLineSVG-Regular.svg` there:
 
 • (macOS) 
 
@@ -54,11 +54,11 @@ First install `ReliefSingleLineOutline-Regular.otf` on your system; then copy `R
 
 `C:\Program Files\Inkscape\share\inkscape\extensions\svg_fonts`
 
-Only for Windows users: if you can not use `ReliefSingleLine-Regular.svg` even if effectively copied in the / svg_fonts folder, try the following action: right-click on `ReliefSingleLine-Regular.svg` then select `/ Properties / Security / Unlock / Apply`.
+Only for Windows users: if you can not use `ReliefSingleLineSVG-Regular.svg` even if effectively copied in the / svg_fonts folder, try the following action: right-click on `ReliefSingleLineSVG-Regular.svg` then select `/ Properties / Security / Unlock / Apply`.
 
 Compose your layout in [Inkscape](https://inkscape.org/) using `ReliefSingleLineOutline-Regular.otf`, launch [Hershey Text Extension](https://www.evilmadscientist.com/2019/hershey-text-v30/) (now available by default) to render your text blocks as single-line letters: go to `/ Extension / Text / Hershey Text`. 
 
-Then, in font select *Other* (bottom of the list after the existing Hershey fonts) and type `ReliefSingleLine-Regular` in the next field of the dialog box as a path-name, then apply rendering. 
+Then, in font select *Other* (bottom of the list after the existing Hershey fonts) and type `ReliefSingleLineSVG-Regular.svg` in the next field of the dialog box as a path-name, then apply rendering. 
 
 Beware to first copy your source text blocks: after the Hershey Text Extension rendering process, texts are becoming not editable. Hershey Text Extension unfortunately apparently disables the kerning values even if truly embedded in the SVG font.
 
@@ -72,7 +72,7 @@ Process to export towards (old) SVG format with open paths:
 
 • Generate,
 
-• Open the SVG file in a text editor (such as Sublime Text) and run two find and replace actions:
+• Open the SVG file in any text editor for code and run two find and replace actions:
 
 — find `z" /`
 
@@ -98,9 +98,9 @@ If you have some Python coding skills, you can play around with *Relief SingleLi
 
 ## Contributors
 
-Élisa Garzelli & Noëlie Dayma, isdaT Graphic Design Department students.
+[François Chastanet](http://francoischastanet.com/) Instagram [@francois_chastanet](https://www.instagram.com/francois_chastanet/), isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
 
-[François Chastanet](http://francoischastanet.com/) Instagram [@francois_chastanet](https://www.instagram.com/francois_chastanet/) / Twitter [@f_chastanet](https://twitter.com/f_chastanet)), isdaT Graphic Design Department teacher in typography and type design, general design and project coordination.
+[Élisa Garzelli](https://elisagarzelli.com/) & Noëlie Dayma, isdaT Graphic Design Department students.
 
 [Tanguy Vanlaeys](https://vnls-tanguy.tumblr.com/) Instagram [@vnls_tanguy](https://www.instagram.com/vnls_tanguy/) + [@cnc_type](https://www.instagram.com/cnc_type/) / Twitter [@tanguy_vanlaeys](https://twitter.com/tanguy_vanlaeys), research on CNC type started at [ANRT](https://anrt-nancy.fr/), advices on Inkscape + Hershey Text Extension usages and open paths (old) SVG fonts export tricks, TTF exports, illustrations and type specimen layouts.
 

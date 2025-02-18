@@ -1,14 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotaccent" format="2">
-	<advance width="82"/>
-	<unicode hex="02D9"/>
-	<anchor x="42" y="555" name="_top"/>
-	<anchor x="42" y="745" name="top"/>
-	<outline>
-		<contour>
-			<point x="42" y="650" type="move"/>
-			<point x="42" y="780" type="line"/>
-			<point x="40" y="780" type="line"/>
-		</contour>
-	</outline>
+  <advance width="82"/>
+  <unicode hex="02D9"/>
+  <anchor x="42" y="555" name="_top"/>
+  <anchor x="42" y="745" name="top"/>
+  <outline>
+    <contour>
+      <point x="42" y="650" type="move"/>
+      <point x="42" y="780" type="line"/>
+    </contour>
+    <contour>
+      <point x="43" y="780" type="move"/>
+      <point x="41" y="780" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.markColor</key>
+      <string>0.5,0.09,0.79,1</string>
+    </dict>
+  </lib>
 </glyph>

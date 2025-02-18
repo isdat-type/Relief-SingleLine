@@ -1,16 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni27F2" format="2">
-	<advance width="860"/>
-	<unicode hex="27F2"/>
-	<outline>
-		<component base="uni27F3" xScale="-1" xOffset="860"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>=|clockwiseGappedCircleArrow</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=|clockwiseGappedCircleArrow</string>
-		</dict>
-	</lib>
+  <advance width="860"/>
+  <unicode hex="27F2"/>
+  <outline>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=|clockwiseGappedCircleArrow</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=|clockwiseGappedCircleArrow</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,25 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="threequarters" format="2">
-	<advance width="622"/>
-	<unicode hex="00BE"/>
-	<outline>
-		<component base="four" xScale="0.5" yScale="0.4999" xOffset="337"/>
-		<component base="fraction" xOffset="263"/>
-		<component base="three" xScale="0.5" yScale="0.5" yOffset="340"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.ComponentInfo</key>
-			<array>
-				<dict>
-					<key>alignment</key>
-					<integer>-1</integer>
-					<key>index</key>
-					<integer>1</integer>
-					<key>name</key>
-					<string>fraction</string>
-				</dict>
-			</array>
-		</dict>
-	</lib>
+  <advance width="622"/>
+  <unicode hex="00BE"/>
+  <outline>
+    <component base="four" xScale="0.5" yScale="0.4999" xOffset="337"/>
+    <component base="fraction" xOffset="263" identifier="A3EC2C6B"/>
+    <component base="three" xScale="0.5" yScale="0.5" yOffset="340"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>A3EC2C6B</key>
+        <dict>
+          <key>com.schriftgestaltung.alignment</key>
+          <integer>-1</integer>
+        </dict>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

@@ -1,36 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="e" format="2">
-	<advance width="561"/>
-	<unicode hex="0065"/>
-	<anchor x="291" y="0" name="bottom"/>
-	<anchor x="412" y="35" name="ogonek"/>
-	<anchor x="295" y="555" name="top"/>
-	<outline>
-		<contour>
-			<point x="92" y="305" type="move"/>
-			<point x="476" y="305" type="line"/>
-			<point x="476" y="417"/>
-			<point x="439" y="555"/>
-			<point x="294" y="555" type="curve" smooth="yes"/>
-			<point x="169" y="555"/>
-			<point x="90" y="451"/>
-			<point x="90" y="275" type="curve" smooth="yes"/>
-			<point x="90" y="116"/>
-			<point x="154" y="0"/>
-			<point x="297" y="0" type="curve" smooth="yes"/>
-			<point x="391" y="0"/>
-			<point x="443" y="51"/>
-			<point x="468" y="110" type="curve" smooth="yes"/>
-		</contour>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.lastChange</key>
-			<string>2021-03-17 07:34:11 +0000</string>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>o</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>=o-5</string>
-		</dict>
-	</lib>
+  <advance width="561"/>
+  <unicode hex="0065"/>
+  <anchor x="291" y="0" name="bottom"/>
+  <anchor x="412" y="35" name="ogonek"/>
+  <anchor x="295" y="555" name="top"/>
+  <outline>
+    <contour>
+      <point x="92" y="305" type="move"/>
+      <point x="476" y="305" type="line"/>
+      <point x="476" y="417"/>
+      <point x="439" y="555"/>
+      <point x="294" y="555" type="curve" smooth="yes"/>
+      <point x="169" y="555"/>
+      <point x="90" y="451"/>
+      <point x="90" y="275" type="curve" smooth="yes"/>
+      <point x="90" y="116"/>
+      <point x="154" y="0"/>
+      <point x="297" y="0" type="curve" smooth="yes"/>
+      <point x="391" y="0"/>
+      <point x="443" y="51"/>
+      <point x="468" y="110" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.lastChange</key>
+      <string>2021-03-17 07:34:11 +0000</string>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>o</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>=o-5</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="b" format="2">
-	<advance width="613"/>
-	<unicode hex="0062"/>
-	<outline>
-		<contour>
-			<point x="140" y="745" type="move"/>
-			<point x="140" y="0" type="line"/>
-		</contour>
-		<component base="_module_rond" xOffset="140"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>n</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>o</string>
-		</dict>
-	</lib>
+  <advance width="611"/>
+  <unicode hex="0062"/>
+  <outline>
+    <contour>
+      <point x="138" y="0" type="move"/>
+      <point x="138" y="745" type="line"/>
+    </contour>
+    <component base="_module_rond" xOffset="138"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>=n-2</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>o</string>
+    </dict>
+  </lib>
 </glyph>

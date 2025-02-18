@@ -1,18 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <glyph name="divide" format="2">
-	<advance width="635"/>
-	<unicode hex="00F7"/>
-	<outline>
-		<component base="periodcentered" xOffset="167" yOffset="224"/>
-		<component base="periodcentered" xOffset="167" yOffset="-172"/>
-		<component base="minus"/>
-	</outline>
-	<lib>
-		<dict>
-			<key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
-			<string>minus</string>
-			<key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
-			<string>minus</string>
-		</dict>
-	</lib>
+  <advance width="635"/>
+  <unicode hex="00F7"/>
+  <outline>
+    <component base="periodcentered" xOffset="167" yOffset="224"/>
+    <component base="periodcentered" xOffset="167" yOffset="-172"/>
+    <component base="minus"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.leftMetricsKey</key>
+      <string>minus</string>
+      <key>com.schriftgestaltung.Glyphs.rightMetricsKey</key>
+      <string>minus</string>
+    </dict>
+  </lib>
 </glyph>
