@@ -31,7 +31,7 @@ The Relief project is based on a main skeletal .glyphs + .ufo source and explore
 
 When using *Relief SingleLine* font with a laser-cutting machine, it is recommended to use the *cutting* function at low intensity and not the *engraving* function in order to reduce inscription’s tracing time on any surface (do preliminary laser power tests to determine the best speed-power couple for each material to engrave with an inscription).
 
-# How to use an open paths font?
+# How to use an open-path font?
 ## Adobe CC ≥2019: OpenType-SVG color font method
 ## →fonts/open_otf-svg/
 
